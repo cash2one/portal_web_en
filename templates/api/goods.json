@@ -1,0 +1,108 @@
+{
+    "apiVersion": "1.0.5",
+    "swaggerVersion": "1.2",
+    "basePath": "/",
+    "resourcePath": "/goods",
+    "produces":[
+        "application/json",
+        "application/xml",
+        "text/plain",
+        "text/html"
+    ],
+
+    "apis":[
+        {
+            "path":"/get_goods_list",
+            "operations":[
+                {
+                    "method":"GET",
+                    "summary":"获取商品列表",
+                    "notes":"",
+                    "nickname":"goods_get_goods_list",
+                    "parameters":[
+                        {
+                            "name":"num",
+                            "description":"显示数",
+                            "type": "integer",
+                            "paramType": "query",
+                            "required": true,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"page",
+                            "description":"显示页",
+                            "type": "integer",
+                            "paramType": "query",
+                            "required": true,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"sort",
+                            "description":"排序方式（0：默认 1：价格从低到高 2：价格从高到低 3：销量从低到高 4：销量从高到低）",
+                            "type": "integer",
+                            "paramType": "query",
+                            "required": false,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"cityId",
+                            "description":"城市id(不需要过滤则不填写）",
+                            "type": "integer",
+                            "paramType": "query",
+                            "required": false,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"storeId",
+                            "description":"门店id(不需要过滤则不填写）",
+                            "type": "integer",
+                            "paramType": "query",
+                            "required": false,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"typeId",
+                            "description":"商品类型id(不需要过滤则不填写）",
+                            "type": "integer",
+                            "paramType": "query",
+                            "required": false,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"brandId",
+                            "description":"商品品牌id(不需要过滤则不填写）",
+                            "type": "integer",
+                            "paramType": "query",
+                            "required": false,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"min_price",
+                            "description":"最小价格(单位：元，不需要过滤则不填写）",
+                            "type": "integer",
+                            "paramType": "query",
+                            "required": false,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"max_price",
+                            "description":"最大价格(单位：元，不需要过滤则不填写）",
+                            "type": "integer",
+                            "paramType": "query",
+                            "required": false,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"keyword",
+                            "description":"关键字(不需要过滤则不填写）",
+                            "type": "string",
+                            "paramType": "query",
+                            "required": false,
+                            "allowMultiple": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

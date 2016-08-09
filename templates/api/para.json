@@ -1,0 +1,44 @@
+{
+    "apiVersion": "1.0.5",
+    "swaggerVersion": "1.2",
+    "basePath": "/",
+    "resourcePath": "/para",
+    "produces":[
+        "application/json",
+        "application/xml",
+        "text/plain",
+        "text/html"
+    ],
+
+    "apis":[
+        {
+            "path":"/new_ver",
+            "operations":[
+                {
+                    "method":"GET",
+                    "summary":"检查新版本",
+                    "notes":"",
+                    "nickname":"para_new_ver",
+                    "parameters":[
+                        {
+                            "name":"ver",
+                            "description":"版本号",
+                            "type": "string",
+                            "paramType": "query",
+                            "required": true,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"device",
+                            "description":"设备('1':Android '2':Ios)",
+                            "type": "string",
+                            "paramType": "query",
+                            "required": true,
+                            "allowMultiple": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "apiVersion": "1.0.5",
+    "swaggerVersion": "1.2",
+    "basePath": "/",
+    "resourcePath": "/store",
+    "produces":[
+        "application/json",
+        "application/xml",
+        "text/plain",
+        "text/html"
+    ],
+
+    "apis":[
+        {
+            "path":"/get_store_desc",
+            "operations":[
+                {
+                    "method":"GET",
+                    "summary":"获取门店详情",
+                    "notes":"",
+                    "nickname":"store_get_store_desc",
+                    "parameters":[
+                        {
+                            "name":"id",
+                            "description":"门店id",
+                            "type": "integer",
+                            "paramType": "query",
+                            "required": true,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"score_num",
+                            "description":"显示评论数(选填，默认5条)",
+                            "type": "integer",
+                            "paramType": "query",
+                            "required": false,
+                            "allowMultiple": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path":"/get_store_list",
+            "operations":[
+                {
+                    "method":"GET",
+                    "summary":"获取门店列表",
+                    "notes":"",
+                    "nickname":"store_get_store_list",
+                    "parameters":[
+                        {
+                            "name":"num",
+                            "description":"每页显示数",
+                            "type": "integer",
+                            "paramType": "query",
+                            "required": true,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"page",
+                            "description":"页数",
+                            "type": "integer",
+                            "paramType": "query",
+                            "required": true,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"keyword",
+                            "description":"选填（如果不搜索，则不用填写)",
+                            "type": "string",
+                            "paramType": "query",
+                            "required": false,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"longitude",
+                            "description":"经度",
+                            "type": "string",
+                            "paramType": "query",
+                            "required": true,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"latitude",
+                            "description":"纬度",
+                            "type": "string",
+                            "paramType": "query",
+                            "required": true,
+                            "allowMultiple": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

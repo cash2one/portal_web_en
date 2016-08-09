@@ -1,0 +1,312 @@
+{
+    "apiVersion": "1.0.5",
+    "swaggerVersion": "1.2",
+    "basePath": "/",
+    "resourcePath": "/user",
+    "produces":[
+        "application/json",
+        "application/xml",
+        "text/plain",
+        "text/html"
+    ],
+
+    "apis":[
+        {
+            "path":"/change_pwd",
+            "operations":[
+                {
+                    "method":"POST",
+                    "summary":"修改密码",
+                    "notes":"",
+                    "nickname":"user_change_pwd",
+                    "parameters":[
+                        {
+                            "name":"oldPwd",
+                            "description":"旧密码",
+                            "type": "string",
+                            "paramType": "form",
+                            "required": true,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"newPwd",
+                            "description":"新密码",
+                            "type": "string",
+                            "paramType": "form",
+                            "required": true,
+                            "allowMultiple": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path":"/get_image_captcha",
+            "operations":[
+                {
+                    "method":"GET",
+                    "summary":"获取图片验证码",
+                    "notes":"",
+                    "nickname":"user_get_image_captcha"
+                }
+            ]
+        },
+        {
+            "path":"/get_mail_captcha",
+            "operations":[
+                {
+                    "method":"GET",
+                    "summary":"获取邮箱验证码",
+                    "notes":"",
+                    "nickname":"user_get_mail_captcha",
+                    "parameters":[
+                        {
+                            "name":"account",
+                            "description":"帐号(邮箱)",
+                            "type": "string",
+                            "paramType": "query",
+                            "required": true,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"type",
+                            "description":"类型('1':注册时使用 '2':找回密码时使用)",
+                            "type": "string",
+                            "paramType": "query",
+                            "required": true,
+                            "allowMultiple": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path":"/get_sms_captcha",
+            "operations":[
+                {
+                    "method":"GET",
+                    "summary":"获取短信验证码",
+                    "notes":"",
+                    "nickname":"user_get_sms_captcha",
+                    "parameters":[
+                        {
+                            "name":"account",
+                            "description":"帐号(手机号)",
+                            "type": "string",
+                            "paramType": "query",
+                            "required": true,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"type",
+                            "description":"类型('1':注册时使用 '2':找回密码时使用)",
+                            "type": "string",
+                            "paramType": "query",
+                            "required": true,
+                            "allowMultiple": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path":"/get_user_desc",
+            "operations":[
+                {
+                    "method":"GET",
+                    "summary":"获取用户信息",
+                    "notes":"",
+                    "nickname":"user_get_user_desc"
+                }
+            ]
+        },
+        {
+            "path":"/login",
+            "operations":[
+                {
+                    "method":"POST",
+                    "summary":"用户登录",
+                    "notes":"",
+                    "nickname":"user_login",
+                    "parameters":[
+                        {
+                            "name":"account",
+                            "description":"帐号",
+                            "type": "string",
+                            "paramType": "form",
+                            "required": true,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"pwd",
+                            "description":"密码",
+                            "type": "string",
+                            "paramType": "form",
+                            "required": true,
+                            "allowMultiple": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path":"/logout",
+            "operations":[
+                {
+                    "method":"POST",
+                    "summary":"用户登出",
+                    "notes":"",
+                    "nickname":"user_logout"
+                }
+            ]
+        },
+        {
+            "path":"/register",
+            "operations":[
+                {
+                    "method":"POST",
+                    "summary":"用户注册",
+                    "notes":"",
+                    "nickname":"user_register",
+                    "parameters":[
+                        {
+                            "name":"account",
+                            "description":"帐号",
+                            "type": "string",
+                            "paramType": "form",
+                            "required": true,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"pwd",
+                            "description":"密码",
+                            "type": "string",
+                            "paramType": "form",
+                            "required": true,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"vcode",
+                            "description":"验证码",
+                            "type": "string",
+                            "paramType": "form",
+                            "required": true,
+                            "allowMultiple": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path":"/retrieve",
+            "operations":[
+                {
+                    "method":"POST",
+                    "summary":"找回密码",
+                    "notes":"",
+                    "nickname":"user_retrieve",
+                    "parameters":[
+                        {
+                            "name":"account",
+                            "description":"帐号",
+                            "type": "string",
+                            "paramType": "form",
+                            "required": true,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"new_pwd",
+                            "description":"新密码",
+                            "type": "string",
+                            "paramType": "form",
+                            "required": true,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"vcode",
+                            "description":"验证码",
+                            "type": "string",
+                            "paramType": "form",
+                            "required": true,
+                            "allowMultiple": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path":"/set_user_desc",
+            "operations":[
+                {
+                    "method":"POST",
+                    "summary":"修改用户信息",
+                    "notes":"",
+                    "nickname":"user_set_user_desc",
+                    "parameters":[
+                        {
+                            "name":"username",
+                            "description":"用户名称",
+                            "type": "string",
+                            "paramType": "form",
+                            "required": false,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"sex",
+                            "description":"性别",
+                            "type": "integer",
+                            "paramType": "form",
+                            "required": false,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"birthday",
+                            "description":"生日",
+                            "type": "string",
+                            "paramType": "form",
+                            "required": false,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"mobile",
+                            "description":"电话",
+                            "type": "string",
+                            "paramType": "form",
+                            "required": false,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"email",
+                            "description":"邮箱",
+                            "type": "string",
+                            "paramType": "form",
+                            "required": false,
+                            "allowMultiple": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path":"/update_head",
+            "operations":[
+                {
+                    "method":"POST",
+                    "summary":"修改头像",
+                    "notes":"",
+                    "nickname":"user_update_head",
+                    "parameters":[
+                        {
+                            "name":"head",
+                            "description":"图像文件",
+                            "type": "File",
+                            "paramType": "form",
+                            "required": true,
+                            "allowMultiple": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+2016-08-04 20:43:25,941 [Thread-7:18232] [django.request:256] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\git\cms\content\views.py", line 8, in mainpage
+    return render(request, 'index.htm', ctx)
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 98, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 46, in get_template
+    raise TemplateDoesNotExist(template_name)
+TemplateDoesNotExist: index.htm
+2016-08-04 20:43:51,032 [Thread-9:18252] [django.request:170] [WARNING]- Not Found: /css/font-awesome.min.css
+2016-08-04 20:43:51,032 [Thread-10:17276] [django.request:170] [WARNING]- Not Found: /css/theme.css
+2016-08-04 20:43:51,032 [Thread-8:8488] [django.request:170] [WARNING]- Not Found: /css/bootstrap.css
+2016-08-04 20:43:51,035 [Thread-11:6136] [django.request:170] [WARNING]- Not Found: /css/prettyPhoto.css
+2016-08-04 20:43:51,039 [Thread-12:12300] [django.request:170] [WARNING]- Not Found: /css/zocial.css
+2016-08-04 20:43:51,102 [Thread-13:24712] [django.request:170] [WARNING]- Not Found: /css/settings.css
+2016-08-04 20:43:51,253 [Thread-14:14176] [django.request:170] [WARNING]- Not Found: /js/jquery.js
+2016-08-04 20:43:51,332 [Thread-15:10644] [django.request:170] [WARNING]- Not Found: /js/bootstrap.min.js
+2016-08-04 20:43:51,345 [Thread-16:13320] [django.request:170] [WARNING]- Not Found: /js/jquery.themepunch.revolution.min.js
+2016-08-04 20:43:51,355 [Thread-17:18472] [django.request:170] [WARNING]- Not Found: /js/jquery.themepunch.plugins.min.js
+2016-08-04 20:43:51,371 [Thread-18:21848] [django.request:170] [WARNING]- Not Found: /js/jquery.touchSwipe.min.js
+2016-08-04 20:43:51,394 [Thread-19:15240] [django.request:170] [WARNING]- Not Found: /js/jquery.mousewheel.min.js
+2016-08-04 20:43:51,483 [Thread-20:14468] [django.request:170] [WARNING]- Not Found: /js/jquery.prettyPhoto.js
+2016-08-04 20:43:51,673 [Thread-21:10752] [django.request:170] [WARNING]- Not Found: /js/scripts.js
+2016-08-04 20:43:51,686 [Thread-22:10732] [django.request:170] [WARNING]- Not Found: /js/jquery.carouFredSel-6.2.1-packed.js
+2016-08-04 20:43:51,710 [Thread-23:18988] [django.request:170] [WARNING]- Not Found: /img/logo.png
+2016-08-04 20:43:51,756 [Thread-24:17956] [django.request:170] [WARNING]- Not Found: /img/slider/slider1.jpg
+2016-08-04 20:43:51,796 [Thread-25:11484] [django.request:170] [WARNING]- Not Found: /img/slider/robot1.png
+2016-08-04 20:43:51,813 [Thread-26:26608] [django.request:170] [WARNING]- Not Found: /img/slider/rocket.png
+2016-08-04 20:43:51,950 [Thread-27:26256] [django.request:170] [WARNING]- Not Found: /img/slider/flames.png
+2016-08-04 20:43:51,990 [Thread-28:12084] [django.request:170] [WARNING]- Not Found: /img/slider/slider2.jpg
+2016-08-04 20:43:52,033 [Thread-29:14004] [django.request:170] [WARNING]- Not Found: /img/slider/iMac.png
+2016-08-04 20:43:52,085 [Thread-30:19780] [django.request:170] [WARNING]- Not Found: /img/slider/slider3.jpg
+2016-08-04 20:43:52,107 [Thread-31:9432] [django.request:170] [WARNING]- Not Found: /img/slider/robot2.png
+2016-08-04 20:43:52,111 [Thread-32:25176] [django.request:170] [WARNING]- Not Found: /img/slider/slider4.jpg
+2016-08-04 20:43:52,256 [Thread-33:13608] [django.request:170] [WARNING]- Not Found: /img/small/s1.jpg
+2016-08-04 20:43:52,286 [Thread-34:22132] [django.request:170] [WARNING]- Not Found: /img/small/s2.jpg
+2016-08-04 20:43:52,326 [Thread-35:20360] [django.request:170] [WARNING]- Not Found: /img/small/s3.jpg
+2016-08-04 20:43:52,371 [Thread-36:17660] [django.request:170] [WARNING]- Not Found: /img/small/s4.jpg
+2016-08-04 20:43:52,404 [Thread-37:19944] [django.request:170] [WARNING]- Not Found: /img/small/s5.jpg
+2016-08-04 20:43:52,414 [Thread-38:3400] [django.request:170] [WARNING]- Not Found: /img/small/s6.jpg
+2016-08-04 20:43:52,542 [Thread-39:10396] [django.request:170] [WARNING]- Not Found: /img/small/s7.jpg
+2016-08-04 20:43:52,563 [Thread-40:13972] [django.request:170] [WARNING]- Not Found: /img/small/s8.jpg
+2016-08-04 20:49:18,585 [Thread-197:8888] [django.request:170] [WARNING]- Not Found: /index.html
+2016-08-04 20:53:41,177 [Thread-321:25644] [django.request:170] [WARNING]- Not Found: /contact.html
+2016-08-05 14:44:58,701 [Thread-328:18308] [django.request:170] [WARNING]- Not Found: /about.html
+2016-08-06 10:47:17,701 [Thread-341:12468] [django.request:170] [WARNING]- Not Found: /services.html
+2016-08-06 10:48:32,339 [Thread-387:10872] [django.request:170] [WARNING]- Not Found: /services.html
+2016-08-08 13:47:09,138 [Thread-13:9888] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2016-08-08 13:57:05,364 [Thread-14:3232] [django.request:170] [WARNING]- Not Found: /team.html
+2016-08-08 13:57:10,460 [Thread-15:11828] [django.request:170] [WARNING]- Not Found: /index2.html
+2016-08-08 14:50:15,615 [Thread-61:5360] [django.request:256] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\git\cms\content\views.py", line 8, in mainpage
+    return render(request, 'index.html', ctx)
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 99, in render_to_string
+    return template.render(context, request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 210, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 202, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 905, in render
+    bit = self.render_node(node, context)
+  File "C:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "C:\Python27\lib\site-packages\django\template\loader_tags.py", line 113, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Python27\lib\site-packages\django\template\loader_tags.py", line 103, in get_parent
+    raise TemplateSyntaxError(error_msg)
+TemplateSyntaxError: Invalid template name in 'extends' tag: ''. Got this from the 'base.html' variable.
+2016-08-08 14:55:21,029 [Thread-140:18744] [django.request:170] [WARNING]- Not Found: /mainpage
+2016-08-08 16:16:23,493 [Thread-47:18648] [django.request:256] [ERROR]- Internal Server Error: /tcs/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\git\cms\content\views.py", line 13, in tcs
+    return render(request, 'tcs.html', ctx)
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 98, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 46, in get_template
+    raise TemplateDoesNotExist(template_name)
+TemplateDoesNotExist: tcs.html
+2016-08-08 18:31:54,519 [Thread-1739:15952] [django.request:170] [WARNING]- Not Found: /video_gallery.html
+2016-08-08 18:39:19,457 [Thread-46:17032] [django.request:170] [WARNING]- Not Found: /mobsolu
+2016-08-08 21:09:25,141 [Thread-396:15672] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2016-08-09 15:19:20,581 [Thread-48:3700] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2016-08-09 15:20:30,737 [Thread-90:14408] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2016-08-09 18:10:42,220 [Thread-8:4112] [django.request:170] [WARNING]- Not Found: /css/flexslider.css
+2016-08-09 18:10:42,288 [Thread-9:14644] [django.request:170] [WARNING]- Not Found: /css/bootstrap.min.css
+2016-08-09 18:10:42,361 [Thread-10:20364] [django.request:170] [WARNING]- Not Found: /css/style.css
+2016-08-09 18:10:42,371 [Thread-11:11592] [django.request:170] [WARNING]- Not Found: /js/move-top.js
+2016-08-09 18:10:42,378 [Thread-12:1140] [django.request:170] [WARNING]- Not Found: /js/easing.js
+2016-08-09 18:10:42,387 [Thread-13:4836] [django.request:170] [WARNING]- Not Found: /js/modernizr.custom.js
+2016-08-09 18:10:42,395 [Thread-14:3732] [django.request:170] [WARNING]- Not Found: /css/chocolat.css
+2016-08-09 18:10:42,653 [Thread-15:4760] [django.request:170] [WARNING]- Not Found: /js/jquery-2.1.4.min.js
+2016-08-09 18:10:42,703 [Thread-16:22020] [django.request:170] [WARNING]- Not Found: /js/bootstrap.min.js
+2016-08-09 18:10:42,773 [Thread-17:14432] [django.request:170] [WARNING]- Not Found: /js/jquery.chocolat.js
+2016-08-09 18:10:42,805 [Thread-18:20776] [django.request:170] [WARNING]- Not Found: /js/jquery.wmuSlider.js
+2016-08-09 18:10:42,809 [Thread-19:25268] [django.request:170] [WARNING]- Not Found: /js/jquery.flexslider.js
+2016-08-09 18:10:43,075 [Thread-20:17864] [django.request:170] [WARNING]- Not Found: /images/IMG_3.jpg
+2016-08-09 18:10:43,085 [Thread-21:20908] [django.request:170] [WARNING]- Not Found: /images/IMG_1.jpg
+2016-08-09 18:10:43,117 [Thread-22:14436] [django.request:170] [WARNING]- Not Found: /images/IMG_5.jpg
+2016-08-09 18:10:43,164 [Thread-23:16316] [django.request:170] [WARNING]- Not Found: /images/IMG_2.jpg
+2016-08-09 18:10:43,187 [Thread-24:15932] [django.request:170] [WARNING]- Not Found: /images/IMG_4.jpg
+2016-08-09 18:10:43,203 [Thread-25:25228] [django.request:170] [WARNING]- Not Found: /images/IMG_6.jpg
+2016-08-09 18:10:43,546 [Thread-26:23376] [django.request:170] [WARNING]- Not Found: /images/half-arrow.png
+2016-08-09 18:10:43,549 [Thread-27:13348] [django.request:170] [WARNING]- Not Found: /images/twitter.png
+2016-08-09 18:10:43,697 [Thread-28:19644] [django.request:170] [WARNING]- Not Found: /favicon.ico

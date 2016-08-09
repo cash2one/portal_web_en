@@ -1,0 +1,26 @@
+{
+    "apiVersion": "1.0.5",
+    "swaggerVersion": "1.2",
+    "apis":[
+        {
+            "path": "/integral_goods",
+            "description":"积分商品(2)"
+        },
+        {
+            "path": "/goods",
+            "description":"商品(1)"
+        },
+        {
+            "path": "/store",
+            "description":"门店(2)"
+        },
+        {
+            "path": "/user",
+            "description":"用户(11)"
+        },
+        {
+            "path": "/para",
+            "description":"参数(1)"
+        }
+    ]
+}

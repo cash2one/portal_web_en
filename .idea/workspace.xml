@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5f3773a-5666-481f-8d5c-954dbba5a1ea" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmssite" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/para" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/changelist-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/changelist-bg_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/default-bg-reverse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/default-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/deleted-overlay.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/gis" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-no.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon-yes.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon_addlink.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon_alert.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon_calendar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon_changelink.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon_clock.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon_deletelink.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon_error.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon_searchbox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/icon_success.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/inline-delete-8bit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/inline-delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/inline-restore-8bit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/inline-restore.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/inline-splitter-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/nav-bg-grabber.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/nav-bg-reverse.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/nav-bg-selected.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/nav-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/selector-icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/selector-search.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/sorting-icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/admin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/cms" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/cms/css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/django_select2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font/timelineicons" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font/timelineicons/ecoico.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font/timelineicons/ecoico.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font/timelineicons/ecoico.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font/zocial-regular-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font/zocial-regular-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font/zocial-regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/Open_Sans" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/Open_Sans/OpenSans-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/Open_Sans/OpenSans-ExtraBold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/Open_Sans/OpenSans-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/Open_Sans/OpenSans-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/Open_Sans/OpenSans-Semibold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/Quicksand" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/Quicksand/Quicksand-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/Quicksand/Quicksand-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/Quicksand/Quicksand-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/19.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/20.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/21.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/23.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/25.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/26.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/IMG_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/IMG_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/IMG_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/IMG_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/IMG_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/IMG_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/SplitShire-5215.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/aa.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/ab.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/ac.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/ad.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/ae.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/af.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/banner_img.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/half-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/left (1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/new.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/office.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/right (1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/scroll-top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/social.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/assets" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/assets/responsive-illustrations.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/avatar1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/avatar2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/clients" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/clients/client1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/clients/client2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/clients/client3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/clients/client4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/clients/client5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/clients/client6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/dummy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/file_32x32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/illustrations" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/illustrations/bag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/illustrations/book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/illustrations/calendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/illustrations/clipboard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/illustrations/colors.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/illustrations/compass.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/illustrations/gift.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/illustrations/infinity.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/illustrations/mail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/illustrations/map.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/illustrations/next-light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/illustrations/paper.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/illustrations/retina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/illustrations/share.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/illustrations/time.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/imac.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/big_slider1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/big_slider2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/big_slider3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/blog_big.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/index_slider1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/index_slider2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/index_slider3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/s1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/s2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/s3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/s4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/s5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/s6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/s7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/s8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/large/screen3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/lines.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/main_carousel_nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/marker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/my_avatar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/next-light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/play-pause-light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/single_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/single_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/portfolio/single_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/preload_img.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/prettyPhoto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/prettyPhoto/default" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/prettyPhoto/default/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/prettyPhoto/default/default_thumb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/prettyPhoto/default/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/prettyPhoto/default/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/prettyPhoto/default/sprite_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/prettyPhoto/default/sprite_prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/prettyPhoto/default/sprite_x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/prettyPhoto/default/sprite_y.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/prev-light.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/ribbon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/slider" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/slider/Unrestricted-RobotSet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/slider/flames.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/slider/iMac.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/slider/robot1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/slider/robot2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/slider/rocket.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/slider/slider1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/slider/slider2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/slider/slider3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/slider/slider4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/slider/slidera.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/slider/sliderb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/slider/sliderc.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/slider_nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/small" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/small/author.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/small/pop_post1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/small/pop_post2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/small/pop_post3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/small/s1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/small/s2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/small/s3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/small/s4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/small/s5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/small/s6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/small/s7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/small/s8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/team1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/team2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/team3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/team4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/team5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/team6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/timer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/zoom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/ZeroClipboard.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/bootstrap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/bootstrap/css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/bootstrap/img" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/bootstrap/img/glyphicons-halflings-white-shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/bootstrap/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/bootstrap/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/bootstrap/js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/img" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/img/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/img/bg_left_white.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/img/bg_pattern.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/img/cc_active_nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/img/drag-handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/img/glyphicons-halflings-white-nav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/img/glyphicons-halflings-white-shadow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/djangocms" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/ui" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/images/explorer_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/images/logo_small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/images/pet_store_api.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/images/throbber.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/images/wordnik_api.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/lib/shred" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/UEditorSnapscreen.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/server" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/anchor" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/alignicon.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/alignicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/file-icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/file-icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/success.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/background" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/background/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/background/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/background/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts/images/charts0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts/images/charts1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts/images/charts2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts/images/charts3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts/images/charts4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts/images/charts5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/images/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/images/bface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/images/cface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/images/fface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/images/jxface2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/images/tface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/images/wface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/images/yface.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/gmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/help" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/images/alignicon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/images/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/images/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/images/progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/images/success.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/insertframe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/link" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/music" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/preview" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/addimg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/brush.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/delimg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/delimgH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/emptyH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/eraser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/redo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/redoH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/scale.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/scaleH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/size.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/undo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/images/undoH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/searchreplace" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/snapscreen" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/spechars" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/table" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/table/dragicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/images/bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/images/pre0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/images/pre1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/images/pre2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/images/pre3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/images/pre4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/center_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/file-icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/file-icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/left_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/none_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/right_focus.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/success.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/images/success.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/webapp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/wordimage" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/wordimage/imageUploader.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/addimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/alldeletebtnhoverskin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/alldeletebtnupskin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/deletedisable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/deleteenable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/listbackground.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/localimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/rotateleftdisable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/rotateleftenable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/rotaterightdisable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/rotaterightenable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/images/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/zh-cn" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/zh-cn/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/zh-cn/images/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/zh-cn/images/localimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/zh-cn/images/music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/zh-cn/images/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/anchor.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/arrow_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/arrow_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/button-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/cancelbutton.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/charts.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/cursor_h.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/cursor_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/cursor_v.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/cursor_v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/dialog-title-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/fileScan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/highlighted.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/icons-all.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/icons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/loaderror.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/lock.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/neweditor-tab-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/pagebreak.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/scale.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/sortable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/spacer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/sparator_v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/table-cell-align.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/tangram-colorpicker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/toolbar_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/unhighlighted.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/videologo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/word.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/images/wordpaste.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/SyntaxHighlighter" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/codemirror" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/adapters" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/themes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/snapscreen" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/video-js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/video-js/font" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/video-js/font/vjs.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/video-js/font/vjs.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/video-js/font/vjs.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/video-js/video-js.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/Uploader.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/zeroclipboard" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/api" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/trunk.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmssite/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmssite/settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmssite/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cmssite/wsgi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django-admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/generate.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gunicorn.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kill.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logs/common_project.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/para/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/para/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/para/apps.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/para/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/para/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/start.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/changelists.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/dashboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/forms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/css/widgets.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/LICENSE-JQUERY.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/SelectBox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/actions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/actions.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/collapse.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/inlines.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/inlines.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/jquery.init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/related-widget-wrapper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/timeparse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin/js/urlify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/cms/css/pages.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/alt_footer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/chocolat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/docs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/filer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/flexslider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/nerveslider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/prettyPhoto.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/settings.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/slider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/suit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/swipebox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/timeline.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/zocial.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/django_select2/django_select2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font/timelineicons/Read Me.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font/timelineicons/ecoico.dev.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font/timelineicons/ecoico.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font/timelineicons/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/font/zocial-regular-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/Open_Sans/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/Quicksand/OFL.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/easing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/fileuploader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/gmap3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jPages.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery-1.8.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery-2.1.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.carouFredSel-6.2.1-packed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.catslider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.chocolat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.flexslider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.isotope.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.mousewheel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.nerveSlider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.nivo.slider.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.prettyPhoto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.swipebox.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.themepunch.plugins.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.themepunch.revolution.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.touchSwipe.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.wmuSlider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.zclip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/jquery.zclip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/modernizr.custom.63321.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/modernizr.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/move-top.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/popup_handling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/scripts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/select2.full.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/select2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/js/select2.min.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/css/djangocms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/css/filer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/css/suit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/js/djangocms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/js/jquery-1.8.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/js/jquery.autosize-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/js/sortables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/js/suit-form-confirm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/js/suit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/djangocms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/djangocms/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/filer.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/footer.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/header.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/left-column.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/sticky-footer.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/suit.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/ui/actionlist.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/ui/box.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/ui/breadcrumb.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/ui/calendar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/ui/datepicker.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/ui/form.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/ui/left-nav.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/ui/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/ui/login.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/ui/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/ui/table.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/ui/tabs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/suit/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/css/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/css/screen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/lib/backbone-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/lib/handlebars-1.0.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/lib/highlight.7.3.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/lib/jquery-1.8.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/lib/jquery.ba-bbq.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/lib/jquery.slideto.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/lib/jquery.wiggle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/lib/shred.bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/lib/shred/content.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/lib/swagger-oauth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/lib/swagger.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/lib/underscore-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/swagger-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/swagger/swagger-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/addCustomizeButton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/addCustomizeCombox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/addCustomizeDialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/charts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/completeDemo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/customPluginDemo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/customToolbarDemo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/customizeDialogPage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/customizeToolbarUIDemo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/editor_api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/filterRuleDemo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/highlightDemo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/jqueryCompleteDemo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/jqueryValidation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/multiDemo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/multiEditorWithOneInstance.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/renderInTable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/resetDemo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/sectiondemo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/server/getContent.ashx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/server/getContent.asp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/server/getContent.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/server/getContent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/setWidthHeightDemo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/simpleDemo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/sortableDemo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/submitFormDemo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/textareaDemo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/_examples/uparsedemo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/anchor/anchor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/attachment.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/attachment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/attachment/attachment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/background/background.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/background/background.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/background/background.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts/chart.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts/charts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts/charts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/charts/charts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/emotion.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/emotion.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/emotion/emotion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/gmap/gmap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/help/help.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/help/help.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/help/help.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/image.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/image.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/image/image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/insertframe/insertframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/internal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/link/link.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/map/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/map/show.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/music/music.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/music/music.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/music/music.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/preview/preview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/scrawl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/scrawl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/scrawl/scrawl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/searchreplace/searchreplace.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/searchreplace/searchreplace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/snapscreen/snapscreen.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/spechars/spechars.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/spechars/spechars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/table/edittable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/table/edittable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/table/edittable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/table/edittd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/table/edittip.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/template.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/template/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/video.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/video.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/video/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/webapp/webapp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/wordimage/tangram.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/wordimage/wordimage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/dialogs/wordimage/wordimage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/en/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/lang/zh-cn/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/php/Uploader.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/php/action_crawler.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/php/action_list.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/php/action_upload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/php/config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/php/controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/css/ueditor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/css/ueditor.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/default/dialogbase.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/themes/iframe.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/SyntaxHighlighter/shCore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/codemirror/codemirror.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/codemirror/codemirror.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/adapters/mootools-adapter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/adapters/prototype-adapter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/adapters/standalone-framework.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/highcharts-more.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/highcharts-more.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/highcharts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/highcharts.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/annotations.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/annotations.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/canvas-tools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/canvas-tools.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/data.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/drilldown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/drilldown.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/exporting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/exporting.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/funnel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/funnel.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/heatmap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/heatmap.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/map.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/no-data-to-display.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/themes/dark-blue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/themes/dark-green.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/themes/gray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/themes/grid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/highcharts/themes/skies.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/jquery-1.10.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/jquery-1.10.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/jquery-1.10.2.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/video-js/font/vjs.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/video-js/video-js.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/video-js/video-js.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/video-js/video.dev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/video-js/video.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.custom.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.flashonly.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.flashonly.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.html5only.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.html5only.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.withoutimage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/zeroclipboard/ZeroClipboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/ueditor.all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/ueditor.all.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/ueditor.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/ueditor.parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/ueditor/ueditor.parse.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/api/docs.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/api/goods.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/api/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/api/integral_goods.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/api/o2c.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/api/para.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/api/store.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/api/user.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/contact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/gallery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/pages.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/calcTime.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/err_code.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/field_format.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/global_settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/operlog.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/public_fun.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/request_auth.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/sortDict.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/storage.py" />
+    </list>
+    <ignored path="trunk.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="trunk" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="54" column="63" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="102" column="28" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1036" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Django server.trunk">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="trunk" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="trunk" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="DJANGO_SETTINGS_MODULE" value="cmssite.settings" />
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="trunk" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8001" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Django server.trunk" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\zhengming\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\git\portal_web_en.git\trunk" />
+          <option name="myCopyRoot" value="C:\git\portal_web_en.git\trunk" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\git\portal_web_en.git\trunk" />
+          <option name="myCopyRoot" value="C:\git\portal_web_en.git\trunk" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5f3773a-5666-481f-8d5c-954dbba5a1ea" name="Default" comment="" />
+      <created>1470736719001</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1470736719001</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25305623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39954337" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="327" column="16" selection-start-line="327" selection-start-column="16" selection-end-line="327" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="102" column="28" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="54" column="63" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

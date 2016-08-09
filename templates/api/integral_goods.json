@@ -1,0 +1,97 @@
+{
+    "apiVersion": "1.0.5",
+    "swaggerVersion": "1.2",
+    "basePath": "/",
+    "resourcePath": "/integral_goods",
+    "produces":[
+        "application/json",
+        "application/xml",
+        "text/plain",
+        "text/html"
+    ],
+
+    "apis":[
+        {
+            "path":"/get_integral_goods_desc",
+            "operations":[
+                {
+                    "method":"GET",
+                    "summary":"获取积分商品详情",
+                    "notes":"",
+                    "nickname":"integral_goods_get_integral_goods_desc",
+                    "parameters":[
+                        {
+                            "name":"integralGoodsId",
+                            "description":"积分商品id",
+                            "type": "integer",
+                            "paramType": "query",
+                            "required": true,
+                            "allowMultiple": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "path":"/get_integral_goods_list",
+            "operations":[
+                {
+                    "method":"GET",
+                    "summary":"获取积分商品列表",
+                    "notes":"",
+                    "nickname":"integral_goods_get_integral_goods_list",
+                    "parameters":[
+                        {
+                            "name":"min_integral",
+                            "description":"最低积分（不需要过滤，不填写)",
+                            "type": "integer",
+                            "paramType": "query",
+                            "required": false,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"max_integral",
+                            "description":"最高积分（不需要过滤，不填写)",
+                            "type": "integer",
+                            "paramType": "query",
+                            "required": false,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"cityId",
+                            "description":"城市id（不需要过滤，不填写)",
+                            "type": "integer",
+                            "paramType": "query",
+                            "required": false,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"storeId",
+                            "description":"门店id（不需要过滤，不填写)",
+                            "type": "integer",
+                            "paramType": "query",
+                            "required": false,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"num",
+                            "description":"显示数",
+                            "type": "integer",
+                            "paramType": "query",
+                            "required": true,
+                            "allowMultiple": false
+                        },
+                        {
+                            "name":"page",
+                            "description":"显示页",
+                            "type": "integer",
+                            "paramType": "query",
+                            "required": true,
+                            "allowMultiple": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
