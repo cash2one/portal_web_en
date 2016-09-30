@@ -37,7 +37,7 @@ body{
 .navbar-default {
 	background-color: #e9ece5;
 	border:none;
-	padding: 1.5em 0em;
+	padding: 1em 0em;
 	margin: 0;
 	border-radius: 0;
 	z-index: 2;
@@ -83,7 +83,7 @@ span.caret:hover {
 	position: relative;
 	display: inline-block;
 	padding: 0;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 300;
 	background: none !important;
 	-webkit-transition: -webkit-transform 0.3s;
@@ -101,7 +101,7 @@ span.caret:hover {
 }
 .container .certificate{
 	text-align: center;
-	font-size: 40px;
+	font-size: 2.7em;
 	color: #739c23;
 }
 .container .text1{
@@ -156,7 +156,7 @@ span.caret:hover {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 600;
 	color: #94c13d !important;
 	padding: 0;
@@ -218,7 +218,7 @@ span.glyphicon.glyphicon-search.edit {
 }
 .bgi{
 	background:url(../images/1.jpg);
-	background-size:cover;
+	background-size:100% 1100px;
 	min-height:700px;
 	padding-top: 10em !important;
 	text-align:center;
@@ -264,10 +264,10 @@ span.glyphicon.glyphicon-search.edit {
   100% {margin-left:0;}
 }
 .i-r-circle2{
-	animation:circle_2 3s  ;
-	-moz-animation:circle_2 3s;Firefox:
-	-webkit-animation:circle_2 3s;Safari and Chrome:
-	-o-animation:circle_2 3s ;Opera: 
+	animation:circle_2 2s  ;
+	-moz-animation:circle_2 2s;Firefox:
+	-webkit-animation:circle_2 2s;Safari and Chrome:
+	-o-animation:circle_2 2s ;Opera: 
 	z-index:1;
 }
 
@@ -443,23 +443,25 @@ section::after {
 .our-features h1 {
 	font-weight: 100;
 	color: #fff;
-	font-size: 3em;
+	font-size: 2.7em;
 	text-transform: capitalize;
 	margin: 0px 0px 15px 0px;
 }
 .our-feat h3{
 	font-weight: 300;
 	color: #fff;
-	font-size: 1.7em;
+	font-size: 18px;
 }
 .column.our-feat p {
 	font-weight: 100;
 	color: #fff;
-	font-size: 1em;
+	font-size: 14px;
 	width: 70%;
 	margin: 0 auto;
 	text-align: left;
 	line-height: 1.8em;
+	text-align: center;
+	/* text-indent: 2em; */
 }
 /*--our-work--*/
 #our-work{
@@ -473,7 +475,7 @@ section::after {
 }
 .our-work h2,.dynamic h2{
 	font-weight: 100;
-	font-size: 3em;
+	font-size: 2.7em;
 	text-transform: capitalize;
 	margin: 0px 0px 15px 0px;
 	text-align: center;
@@ -1049,6 +1051,7 @@ li.grid_2 h4,h5,h6,h1,h2,h3 {
 	padding: 0 23px;
 	background-color: #94c13d;
 	color: #fff;
+	font-size: 20px;
 }
 .news-list {
 	padding-left: 0;
@@ -1062,7 +1065,7 @@ li.grid_2 h4,h5,h6,h1,h2,h3 {
 .news-list .news-item h3{
 	overflow: hidden;
 	padding-top: 5px;
-	font-size: 24px;
+	font-size: 20px;
 	color: #55790d;
 	margin-bottom: 10px;
 }
