@@ -23,14 +23,12 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'content.views.mainpage'),
-    url(r'^tcs/', 'content.views.tcs'),
-    url(r'^ito/', 'content.views.ito'),
-    url(r'^bpo/', 'content.views.bpo'),
-    url(r'^pgs/', 'content.views.pgs'),
-    url(r'^mobsolu/', 'content.views.mobsolu'),
-    url(r'^digital/', 'content.views.digital'),
+    url(r'^xwdt/', 'content.views.xwdt'),
     url(r'^about/', 'content.views.about'),
     url(r'^contact/', 'content.views.contact'),
+    url(r'^news/', 'content.views.news'),
+    url(r'^newsdetail/', 'content.views.newsdetail'),
+     url(r'^field/', 'content.views.field'),
 
 ]
 

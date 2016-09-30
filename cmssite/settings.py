@@ -109,7 +109,7 @@ DATABASES = {
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
 SITE_ID = 1
-LANGUAGE_CODE = 'zh-cn'
+LANGUAGE_CODE = 'en-US'
 
 TIME_ZONE = 'UTC'
 

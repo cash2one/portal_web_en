@@ -143,3 +143,158 @@ TemplateDoesNotExist: tcs.html
 2016-09-10 15:43:53,562 [Thread-92:27624] [django.request:170] [WARNING]- Not Found: /contact.html
 2016-09-24 14:15:07,775 [Thread-22:3960] [django.request:170] [WARNING]- Not Found: /favicon.ico
 2016-09-27 10:22:55,506 [Thread-4:7604] [django.request:170] [WARNING]- Not Found: /favicon.ico
+2016-09-28 10:04:54,430 [Thread-7:8248] [django.request:284] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 123, in get_response
+    response = middleware_method(request)
+  File "D:\Python27\lib\site-packages\django\middleware\locale.py", line 26, in process_request
+    translation.activate(language)
+  File "D:\Python27\lib\site-packages\django\utils\translation\__init__.py", line 154, in activate
+    return _trans.activate(language)
+  File "D:\Python27\lib\site-packages\django\utils\translation\trans_real.py", line 216, in activate
+    _active.value = translation(language)
+  File "D:\Python27\lib\site-packages\django\utils\translation\trans_real.py", line 205, in translation
+    _translations[language] = DjangoTranslation(language)
+  File "D:\Python27\lib\site-packages\django\utils\translation\trans_real.py", line 119, in __init__
+    self._add_fallback()
+  File "D:\Python27\lib\site-packages\django\utils\translation\trans_real.py", line 175, in _add_fallback
+    default_translation = translation(settings.LANGUAGE_CODE)
+  File "D:\Python27\lib\site-packages\django\utils\translation\trans_real.py", line 205, in translation
+    _translations[language] = DjangoTranslation(language)
+  File "D:\Python27\lib\site-packages\django\utils\translation\trans_real.py", line 118, in __init__
+    raise IOError("No translation files found for default language %s." % settings.LANGUAGE_CODE)
+IOError: No translation files found for default language zh-cn.
+2016-09-28 10:04:54,576 [Thread-8:4612] [django.request:284] [ERROR]- Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 123, in get_response
+    response = middleware_method(request)
+  File "D:\Python27\lib\site-packages\django\middleware\locale.py", line 26, in process_request
+    translation.activate(language)
+  File "D:\Python27\lib\site-packages\django\utils\translation\__init__.py", line 154, in activate
+    return _trans.activate(language)
+  File "D:\Python27\lib\site-packages\django\utils\translation\trans_real.py", line 216, in activate
+    _active.value = translation(language)
+  File "D:\Python27\lib\site-packages\django\utils\translation\trans_real.py", line 205, in translation
+    _translations[language] = DjangoTranslation(language)
+  File "D:\Python27\lib\site-packages\django\utils\translation\trans_real.py", line 119, in __init__
+    self._add_fallback()
+  File "D:\Python27\lib\site-packages\django\utils\translation\trans_real.py", line 175, in _add_fallback
+    default_translation = translation(settings.LANGUAGE_CODE)
+  File "D:\Python27\lib\site-packages\django\utils\translation\trans_real.py", line 205, in translation
+    _translations[language] = DjangoTranslation(language)
+  File "D:\Python27\lib\site-packages\django\utils\translation\trans_real.py", line 118, in __init__
+    raise IOError("No translation files found for default language %s." % settings.LANGUAGE_CODE)
+IOError: No translation files found for default language zh-cn.
+2016-09-28 10:06:02,094 [Thread-37:9176] [django.request:182] [WARNING]- Not Found: /favicon.ico
+2016-09-28 11:12:41,572 [Thread-43:10840] [django.request:182] [WARNING]- Not Found: /about.html
+2016-09-28 11:12:47,763 [Thread-44:10924] [django.request:182] [WARNING]- Not Found: /404.html
+2016-09-28 12:00:34,049 [Thread-1030:10040] [django.request:182] [WARNING]- Not Found: /images/loading.gif
+2016-09-28 14:00:18,819 [Thread-243:6576] [django.request:284] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\project\portal_web_en\trunk\content\views.py", line 8, in mainpage
+    return render(request, 'index.html', ctx)
+  File "D:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "D:\Python27\lib\site-packages\django\template\loader.py", line 96, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Python27\lib\site-packages\django\template\loader.py", line 32, in get_template
+    return engine.get_template(template_name, dirs)
+  File "D:\Python27\lib\site-packages\django\template\backends\django.py", line 40, in get_template
+    return Template(self.engine.get_template(template_name, dirs), self)
+  File "D:\Python27\lib\site-packages\django\template\engine.py", line 190, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "D:\Python27\lib\site-packages\django\template\engine.py", line 157, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "D:\Python27\lib\site-packages\django\template\loaders\base.py", line 46, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 189, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 231, in compile_nodelist
+    return parser.parse()
+  File "D:\Python27\lib\site-packages\django\template\base.py", line 516, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: 'block' tag with name 'our_work' appears more than once
+2016-09-28 14:25:33,825 [Thread-698:10292] [django.request:182] [WARNING]- Not Found: /js/jquery.flexslider.js
+2016-09-28 14:25:33,842 [Thread-702:8892] [django.request:182] [WARNING]- Not Found: /images/certificate1.png
+2016-09-28 14:25:33,992 [Thread-706:5428] [django.request:182] [WARNING]- Not Found: /images/certificate1.png
+2016-09-28 14:26:15,371 [Thread-724:10912] [django.request:182] [WARNING]- Not Found: /js/jquery.flexslider.js
+2016-09-28 14:27:17,257 [Thread-748:9280] [django.request:182] [WARNING]- Not Found: /js/jquery.flexslider.js
+2016-09-28 14:30:52,013 [Thread-876:9372] [django.request:182] [WARNING]- Not Found: /images/certificate1.png
+2016-09-28 14:30:52,165 [Thread-880:9960] [django.request:182] [WARNING]- Not Found: /images/certificate1.png
+2016-09-28 14:30:53,273 [Thread-884:9124] [django.request:182] [WARNING]- Not Found: /images/certificate1.png
+2016-09-28 14:31:20,253 [Thread-904:10592] [django.request:182] [WARNING]- Not Found: /images/certificate1.png
+2016-09-28 14:31:20,345 [Thread-908:8844] [django.request:182] [WARNING]- Not Found: /images/certificate1.png
+2016-09-28 14:31:20,421 [Thread-912:7720] [django.request:182] [WARNING]- Not Found: /images/certificate1.png
+2016-09-28 16:34:22,288 [Thread-3154:8260] [django.request:182] [WARNING]- Not Found: /images/11.jpg
+2016-09-28 16:34:22,339 [Thread-3158:9372] [django.request:182] [WARNING]- Not Found: /images/11.jpg
+2016-09-28 16:51:28,417 [Thread-4002:10420] [django.request:182] [WARNING]- Not Found: /404.html
+2016-09-28 17:00:23,993 [Thread-4044:11380] [django.request:182] [WARNING]- Not Found: /gallery.html
+2016-09-28 17:01:37,631 [Thread-4121:11604] [django.request:182] [WARNING]- Not Found: /gallery.html
+2016-09-28 17:02:48,585 [Thread-4122:12160] [django.request:182] [WARNING]- Not Found: /gallery.html
+2016-09-28 17:03:22,349 [Thread-4128:7112] [django.request:182] [WARNING]- Not Found: /404.html
+2016-09-28 17:04:25,003 [Thread-4170:8780] [django.request:182] [WARNING]- Not Found: /index.html
+2016-09-28 17:05:07,671 [Thread-4177:7948] [django.request:182] [WARNING]- Not Found: /favicon.ico
+2016-09-28 17:05:13,730 [Thread-4178:11920] [django.request:182] [WARNING]- Not Found: /gallery.html
+2016-09-28 17:06:27,898 [Thread-4220:11804] [django.request:182] [WARNING]- Not Found: /gallery.html
+2016-09-28 17:06:38,453 [Thread-4221:10428] [django.request:182] [WARNING]- Not Found: /gallery.html
+2016-09-28 17:07:11,696 [Thread-4262:11588] [django.request:182] [WARNING]- Not Found: /gallery.html
+2016-09-28 17:08:49,555 [Thread-4298:12156] [django.request:182] [WARNING]- Not Found: /news.html
+2016-09-28 17:09:28,381 [Thread-4299:11252] [django.request:182] [WARNING]- Not Found: /index.html
+2016-09-28 17:09:48,951 [Thread-4340:7688] [django.request:182] [WARNING]- Not Found: /404.html
+2016-09-29 08:47:20,900 [Thread-37:6732] [django.request:182] [WARNING]- Not Found: /favicon.ico
+2016-09-29 09:27:50,993 [Thread-3311:7980] [django.request:182] [WARNING]- Not Found: /favicon.ico
+2016-09-29 09:29:20,611 [Thread-3357:1436] [django.request:182] [WARNING]- Not Found: /favicon.ico
+2016-09-29 09:35:03,137 [Thread-4070:7020] [django.request:182] [WARNING]- Not Found: /favicon.ico
+2016-09-29 10:37:16,783 [Thread-49:6332] [django.request:284] [ERROR]- Internal Server Error: /news
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 123, in get_response
+    response = middleware_method(request)
+  File "D:\Python27\lib\site-packages\django\middleware\common.py", line 61, in process_request
+    if self.should_redirect_with_slash(request):
+  File "D:\Python27\lib\site-packages\django\middleware\common.py", line 80, in should_redirect_with_slash
+    and urlresolvers.is_valid_path('%s/' % request.path_info, urlconf)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 668, in is_valid_path
+    resolve(path, urlconf)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 534, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 376, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 248, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 255, in callback
+    self._callback = get_callable(self._callback_str)
+  File "D:\Python27\lib\site-packages\django\utils\lru_cache.py", line 100, in wrapper
+    result = user_function(*args, **kwds)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 136, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import 'content.views.news'. View does not exist in module content.views.
+2016-09-29 10:38:05,358 [Thread-51:5164] [django.request:284] [ERROR]- Internal Server Error: /news
+Traceback (most recent call last):
+  File "D:\Python27\lib\site-packages\django\core\handlers\base.py", line 123, in get_response
+    response = middleware_method(request)
+  File "D:\Python27\lib\site-packages\django\middleware\common.py", line 61, in process_request
+    if self.should_redirect_with_slash(request):
+  File "D:\Python27\lib\site-packages\django\middleware\common.py", line 80, in should_redirect_with_slash
+    and urlresolvers.is_valid_path('%s/' % request.path_info, urlconf)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 668, in is_valid_path
+    resolve(path, urlconf)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 534, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 376, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 248, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 255, in callback
+    self._callback = get_callable(self._callback_str)
+  File "D:\Python27\lib\site-packages\django\utils\lru_cache.py", line 100, in wrapper
+    result = user_function(*args, **kwds)
+  File "D:\Python27\lib\site-packages\django\core\urlresolvers.py", line 136, in get_callable
+    (lookup_view, mod_name))
+ViewDoesNotExist: Could not import 'content.views.news'. View does not exist in module content.views.
+2016-09-29 11:51:41,928 [Thread-46:8292] [django.request:182] [WARNING]- Not Found: /favicon.ico
+2016-09-30 08:58:51,180 [Thread-38:4516] [django.request:182] [WARNING]- Not Found: /favicon.ico
+2016-09-30 09:27:42,811 [Thread-374:3052] [django.request:182] [WARNING]- Not Found: /favicon.ico

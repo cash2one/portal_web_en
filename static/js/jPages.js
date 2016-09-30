@@ -15,12 +15,12 @@
       defaults = {
         containerID: "",
         first: false,
-        previous: "← previous",
-        next: "next →",
+        previous: "＜上一页",
+        next: "下一页＞",
         last: false,
         links: "numeric", // blank || title
         startPage: 1,
-        perPage: 10,
+        perPage: 5,
         midRange: 5,
         startRange: 1,
         endRange: 1,
