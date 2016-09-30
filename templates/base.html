@@ -59,17 +59,8 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right margin-top cl-effect-2">
                     <li><a href="/"><span data-hover="首页">首页</span></a></li>
-                    <li class="field1"><a id="field" href="/field"><span  data-hover="领域业务">领域业务</span></a></li>
-                    {% comment %}<li class="dropdown">
-                        <a href="about.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                           aria-haspopup="true" aria-expanded="false"><span data-hover="领域业务">领域业务</span><span
-                                class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="about.html"><span data-hover="Action">Action</span></a></li>
-                            <li><a href="Pages.html"><span data-hover="Pages">Pages</span></a></li>
-                        </ul>
-                    </li>{% endcomment %}
-                    <li><a href="404.html"><span data-hover="解决方案">解决方案</span></a></li>
+                    <li class="field1"><a  href="#" id="field"><span  data-hover="领域业务">领域业务</span></a></li>
+                    <li><a href="#" id="field1"><span data-hover="解决方案">解决方案</span></a></li>
                     <li><a href="/xwdt"><span data-hover="合作伙伴">合作伙伴</span></a></li>
                     <li><a href="/news"><span data-hover="新闻动态">新闻动态</span></a></li>
                     <li><a href="/contact"><span data-hover="联系我们">联系我们</span></a></li>
@@ -79,8 +70,11 @@
             <div class="clearfix"></div>
         </div><!-- /.container-fluid -->
     </nav>
-    {% block header_banner %}
-    {% endblock %}
+{% block field1 %}
+{% endblock %}
+
+{% block header_banner %}
+{% endblock %}
 
 {% block dynamic %}
 {% endblock %}
