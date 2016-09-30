@@ -68,12 +68,10 @@ html[xmlns] .slides {display: block;}
 .flex-control-thumbs img:hover {opacity: 1;}
 .flex-control-thumbs .active {opacity: 1; cursor: default;}
 /*----flexslider1---*/
-.flexslider-1{
+ .flexslider-1{
 	margin-bottom: 20px;
 }
-.flexslider-1 .flex-control-nav{
-	bottom: 5% !important;
-}
+
 .flexslider1 ol.flex-control-nav{
 	width: ;
 	position: absolute;

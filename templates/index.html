@@ -45,7 +45,7 @@
                     <p  class="c-blue">此处应有掌声，这是一句体现企业核心价值简介的话，低调奢华有内涵</p>
                     <div class="news clear">
                         <img src="../static/images/11.jpg"/>
-                        <h2>动态更新新闻标题</h2>
+                        <h2>动态更新新闻标题1</h2>
                         <p>2016年7月，慧禹信息科技有限公司经湖北省经济和信息化委员会、中华人民共和国工业和信息化部、中国软件企业评估联盟、湖北省软件行业协会联合审核批准，正式认定为“双软企业”，并获得由湖北省软件行业协会正式颁发的《软件产品证书》（鄂RC-2016-0964）和《软件企业证书》（证书编号：鄂RQ-2016-0289）
                         </p>
                         <a href="news.html">更多...</a>
@@ -56,7 +56,7 @@
                     <p  class="c-blue">此处应有掌声，这是一句体现企业核心价值简介的话，低调奢华有内涵</p>
                     <div class="news clear">
                         <img src="../static/images/11.jpg"/>
-                        <h2>动态更新新闻标题</h2>
+                        <h2>动态更新新闻标题2</h2>
                         <p>2016年7月，慧禹信息科技有限公司经湖北省经济和信息化委员会、中华人民共和国工业和信息化部、中国软件企业评估联盟、湖北省软件行业协会联合审核批准，正式认定为“双软企业”，并获得由湖北省软件行业协会正式颁发的《软件产品证书》（鄂RC-2016-0964）和《软件企业证书》（证书编号：鄂RQ-2016-0289）
                         </p>
                         <a href="news.html">更多...</a>
@@ -67,7 +67,7 @@
                     <p  class="c-blue">此处应有掌声，这是一句体现企业核心价值简介的话，低调奢华有内涵</p>
                     <div class="news clear">
                         <img src="../static/images/11.jpg"/>
-                        <h2>动态更新新闻标题</h2>
+                        <h2>动态更新新闻标题3</h2>
                         <p>2016年7月，慧禹信息科技有限公司经湖北省经济和信息化委员会、中华人民共和国工业和信息化部、中国软件企业评估联盟、湖北省软件行业协会联合审核批准，正式认定为“双软企业”，并获得由湖北省软件行业协会正式颁发的《软件产品证书》（鄂RC-2016-0964）和《软件企业证书》（证书编号：鄂RQ-2016-0289）
                         </p>
                         <a href="news.html">更多...</a>
@@ -78,7 +78,7 @@
                     <p  class="c-blue">此处应有掌声，这是一句体现企业核心价值简介的话，低调奢华有内涵</p>
                     <div class="news clear">
                         <img src="../static/images/11.jpg"/>
-                        <h2>动态更新新闻标题</h2>
+                        <h2>动态更新新闻标题4</h2>
                         <p>2016年7月，慧禹信息科技有限公司经湖北省经济和信息化委员会、中华人民共和国工业和信息化部、中国软件企业评估联盟、湖北省软件行业协会联合审核批准，正式认定为“双软企业”，并获得由湖北省软件行业协会正式颁发的《软件产品证书》（鄂RC-2016-0964）和《软件企业证书》（证书编号：鄂RQ-2016-0289）
                         </p>
                         <a href="news.html">更多...</a>
@@ -88,6 +88,16 @@
             </div>
         </div>
     </div>
+     <script defer src="/static/js/jquery.flexslider.js"></script>
+     <script type="text/javascript">
+                $(function() {
+                    $(".flexslider-1").flexslider({
+                        slideshowSpeed: 4000, //展示时间间隔ms
+                        animationSpeed: 400, //滚动时间ms
+                        touch: true //是否支持触屏滑动
+                    });
+                });
+     </script>
 {% endblock %}
 
 
@@ -99,7 +109,7 @@
     </div>
     <section class="slider" id="slider">
         <div class="container">
-            <div class="flexslider">
+            <div class="flexslider flexslider-2">
                 <ul class="slides">
                     <li>
                         <div class="banner-info">
@@ -161,15 +171,7 @@
 
 
         </script>
-            <script type="text/javascript">
-                $(function() {
-                    $(".flexslider-1").flexslider({
-                        slideshowSpeed: 4000, //展示时间间隔ms
-                        animationSpeed: 400, //滚动时间ms
-                        touch: true //是否支持触屏滑动
-                    });
-                });
-            </script>
+
         <!-- FlexSlider -->
     </section>
 {% endblock %}
