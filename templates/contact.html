@@ -1,4 +1,9 @@
 {% extends 'base.html' %}
+<style>
+    #mapCard_container{
+	width: 100%;
+}
+</style>
 {% block home1 %}
     <div class="" id="home1">
         <div class="banamer-img">
@@ -37,7 +42,15 @@
             </div>
         </div>
         <div class="map">
-            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190028.76432096347!2d12.535997899999987!3d41.91007110000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2sRome%2C+Italy!5e0!3m2!1sen!2sin!4v1436158065010" frameborder="0" style="border:0" allowfullscreen></iframe>
+           {% comment %} <iframe class="embed-responsive-item" src="http://map.baidu.com/?newmap=1&ie=utf-8&s=s%26wd%3D武汉慧禹信息技术有限公司" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <img src="../static/images/map.png">{% endcomment %}
+
+            <iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://j.map.baidu.com/Yg0ZF"></iframe>
+            <script src="/static/js/jquery-2.1.4.min.js"></script>
+            <script>
+                $("#mapCard_style").width(1000);
+            </script>
+            <script src="http://a"></script>
             </div>
         </div>
 		<div class="footer">

@@ -84,7 +84,7 @@ span.caret:hover {
 	display: inline-block;
 	padding: 0;
 	font-size: 16px;
-	font-weight: 300;
+	font-weight: 600;
 	background: none !important;
 	-webkit-transition: -webkit-transform 0.3s;
 	-ms-transition: -webkit-transform 0.3s;
@@ -658,7 +658,7 @@ section.slider {
 }
 .flex-control-nav {
 	bottom: 0% !important;
-	right: 46% !important;
+	/* right: 46% !important; */
 }
 .flex-control-paging li a.flex-active {
 	background: #fff;
@@ -1331,6 +1331,11 @@ input.name,input.nuber,input.mail2{
 	height:300px;
 	margin-bottom: -5px;
 }
+.map img{
+	width: 100%;
+	margin-top: 20px;
+}
+
 /*--contact--*/
 /*--404--*/
 .for_for{

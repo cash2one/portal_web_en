@@ -56,7 +56,7 @@ html[xmlns] .slides {display: block;}
 .flex-direction-nav .disabled {opacity: .3!important; filter:alpha(opacity=30); cursor: default;}
 
 /* Control Nav */
-.flex-control-nav { position: absolute; bottom:-40px; text-align: center;right:0;}
+.flex-control-nav { /* position: absolute; */ bottom:-40px; text-align: center;right:0;}
 .flex-control-nav li {margin: 0 5px; display:inline-block; zoom: 1; *display: inline;padding:0.2em;}
 .flex-control-paging li a {width: 13px; height: 13px; display:inline-block;  background:#c66f8b; cursor: pointer; text-indent: -9999px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; box-shadow: inset 0 0 3px rgba(0,0,0,0.3); border:;}
 .flex-control-paging li a:hover { background:#c36c88; }
