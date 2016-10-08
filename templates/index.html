@@ -72,7 +72,7 @@
     <div class="header-banner">
         <!-- Top Navigation -->
         <div class="container page-seperator">
-            <section class="color bgi">
+            {% comment %}<section class="color bgi">
                 <div class="text">
                     <ul id="slider1" class="clear">
                         <li><img src="../static/images/lunbo1.png"/></li>
@@ -80,8 +80,8 @@
                         <li><img src="../static/images/lunbo3.png"/></li>
                     </ul>
                 </div>
-            </section>
-            {% comment %} <section class="color bgi" >
+            </section>{% endcomment %}
+             <section class="color bgi" >
                  <div id="slideBox" class=" slideBox">
                     <div class="text bd">
                         <ul id="" class="clear">
@@ -91,13 +91,12 @@
                         </ul>
                     </div>
                  </div>
-            </section>{% endcomment %}
-            <script>
-
-             var ary = location.href.split("&");
-            jQuery(".slideBox").slide({mainCell:".bd ul",effect:"leftLoop",autoPlay:true});
-
-            </script>
+            </section>
+             <script src="/static/js/jquery-2.1.4.min.js"></script>
+            <script src="/static/js/jquery.SuperSlide.2.1.1.js"></script>
+           <script type="text/javascript">
+		jQuery(".slideBox").slide({mainCell:".bd ul",autoPlay:true,effect:"leftLoop"});
+		</script>
             <section class="col-3 ss-style-doublediagonal our-features">
                 <h1>核心价值</h1>
                 <p>此处应有掌声，这是一句体现企业核心价值简介的话，低调奢华有内涵</p>
