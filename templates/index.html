@@ -81,6 +81,23 @@
                     </ul>
                 </div>
             </section>
+            {% comment %} <section class="color bgi" >
+                 <div id="slideBox" class=" slideBox">
+                    <div class="text bd">
+                        <ul id="" class="clear">
+                            <li><img src="../static/images/lunbo1.png"/></li>
+                            <li><img src="../static/images/lunbo2.png"/></li>
+                            <li><img src="../static/images/lunbo3.png"/></li>
+                        </ul>
+                    </div>
+                 </div>
+            </section>{% endcomment %}
+            <script>
+
+             var ary = location.href.split("&");
+            jQuery(".slideBox").slide({mainCell:".bd ul",effect:"leftLoop",autoPlay:true});
+
+            </script>
             <section class="col-3 ss-style-doublediagonal our-features">
                 <h1>核心价值</h1>
                 <p>此处应有掌声，这是一句体现企业核心价值简介的话，低调奢华有内涵</p>

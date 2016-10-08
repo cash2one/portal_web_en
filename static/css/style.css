@@ -115,7 +115,6 @@ span.caret:hover {
 }
 .dynamic .news{
 	margin-top: 60px;
-	/* margin-bottom: 30px; */
 	position: relative;
 }
 .dynamic .news img{
@@ -253,6 +252,13 @@ span.glyphicon.glyphicon-search.edit {
 	width:33% ;
 	height: 288px;
 	text-align: center;
+}
+.page-seperator .slideBox li{
+	width: 100%;
+}
+.page-seperator .slideBox .bd{
+	width: 100%;
+	position: relative;
 }
 @-webkit-keyframes slide1 {
   0% { margin-left:0;}
@@ -1028,23 +1034,23 @@ li.grid_2 h4,h5,h6,h1,h2,h3 {
 }
 /*--pages--*/
 /*--news--*/
-.news{
+.news,.contact{
 	padding:3em 0;
 	
 }
-.news .tit{
+.news .tit,.contact .tit{
 	height: 60px;
 	line-height: 60px;
 	background-color: #e9ece5;
 	margin-bottom: 3em;
 	margin-top: -1.5em;
 }
-.news .tit h3{
+.news .tit h3,.contact .tit h3{
 	width: 1170px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
-.news .tit h3 span{
+.news .tit h3 span,.contact .tit h3 span{
 	display: inline-block;
 	height: 60px;
 	line-height: 60px;
@@ -1259,8 +1265,8 @@ li.col-md-3.gal-alt {
 .cnt-pg h4{
 	text-align: left;
 	font-weight: 300;
-	color: #00BFF3;
-	font-size: 1.7em;
+	color: #739c23;
+	font-size: 20px;
 	margin-bottom: 20px;
 }
 .cnt-pg ul{
@@ -1268,19 +1274,27 @@ li.col-md-3.gal-alt {
 	margin:0;
 	padding:0;
 }
+.w1000{
+	width: 1000px;
+}
 .cnt-pg ul li{
 	padding:0;
 	text-align: left;
-	color: #D80B36;
-	font-weight: 600;
+	color: #333333;
+	font-weight: normal;
 	font-size: 14px;
 	text-transform: capitalize;
 	margin-bottom: 15px;
 }
 .glyphicon.glyphicon-phone-alt{
-	color: #0B0354;
+	color: #739c23;
 	font-size: 20px;
 	margin-right: 10px;
+}
+.btn-info1{
+	background-color: #94c13d;
+	color: #fff;
+	padding: 6px 20px;
 }
 .cnt-pg textarea {
 	width: 100%;
@@ -1288,7 +1302,7 @@ li.col-md-3.gal-alt {
 	resize: none;
 	padding: 10px 10px;
 	outline: none;
-	border: 2px solid #7A7798;
+	border: 2px solid #cccccc;
 	margin-bottom:20px;
 }
 .cnt-pg{
@@ -1297,14 +1311,14 @@ li.col-md-3.gal-alt {
 input.name,input.nuber,input.mail2{
 	width: 100%;
 	padding: 10px;
-	border: 2px solid #7A7798;
+	border: 2px solid #cccccc;
 	outline:none;
 }
 .map{
 	padding:0;
 	margin:0;
-	border-top:3px solid #00BFF3;
-	border-bottom:3px solid #00BFF3;
+	border-top:1px solid #94c13d;
+	border-bottom:1px solid #94c13d;
 }
 .map iframe {
 	width:100%;

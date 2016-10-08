@@ -298,3 +298,8 @@ ViewDoesNotExist: Could not import 'content.views.news'. View does not exist in 
 2016-09-29 11:51:41,928 [Thread-46:8292] [django.request:182] [WARNING]- Not Found: /favicon.ico
 2016-09-30 08:58:51,180 [Thread-38:4516] [django.request:182] [WARNING]- Not Found: /favicon.ico
 2016-09-30 09:27:42,811 [Thread-374:3052] [django.request:182] [WARNING]- Not Found: /favicon.ico
+2016-09-30 14:18:14,417 [Thread-3124:10928] [django.request:182] [WARNING]- Not Found: /favicon.ico
+2016-09-30 14:26:11,693 [Thread-3280:2148] [django.request:182] [WARNING]- Not Found: /favicon.ico
+2016-09-30 16:23:27,917 [Thread-3930:10544] [django.request:182] [WARNING]- Not Found: /404.html
+2016-10-08 08:48:43,490 [Thread-2:6648] [django.request:182] [WARNING]- Not Found: /favicon.ico
+2016-10-08 08:48:45,415 [Thread-42:6352] [django.request:182] [WARNING]- Not Found: /favicon.ico
