@@ -1308,7 +1308,7 @@ li.col-md-3.gal-alt {
 	resize: none;
 	padding: 10px 10px;
 	outline: none;
-	border: 2px solid #cccccc;
+	border: 1px solid #cccccc;
 	margin-bottom:20px;
 }
 .cnt-pg{
@@ -1317,7 +1317,7 @@ li.col-md-3.gal-alt {
 input.name,input.nuber,input.mail2{
 	width: 100%;
 	padding: 10px;
-	border: 2px solid #cccccc;
+	border: 1px solid #cccccc;
 	outline:none;
 }
 .map{
