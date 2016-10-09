@@ -1,9 +1,4 @@
 {% extends 'base.html' %}
-<style>
-    #mapCard_container{
-	width: 100%;
-}
-</style>
 {% block home1 %}
     <div class="" id="home1">
         <div class="banamer-img">
@@ -41,16 +36,25 @@
                 </div>
             </div>
         </div>
-        <div class="map">
-           {% comment %} <iframe class="embed-responsive-item" src="http://map.baidu.com/?newmap=1&ie=utf-8&s=s%26wd%3D武汉慧禹信息技术有限公司" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <img src="../static/images/map.png">{% endcomment %}
+         <div class="map">
+            <script type="text/javascript" src="http://api.map.baidu.com/api?ak=4xXGMMnrGoESPPO7zgNCSpi9L2EPwikB&v=2.0&services=false"></script>
+            <div  id="container"></div>
 
-            <iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://j.map.baidu.com/Yg0ZF"></iframe>
-            <script src="/static/js/jquery-2.1.4.min.js"></script>
             <script>
-                $("#mapCard_style").width(1000);
+                var map = new BMap.Map("container");
+                map.addControl(new BMap.NavigationControl());
+                var myGeo = new BMap.Geocoder();
+                myGeo.getPoint("武汉市洪山区关山大道光谷软件园A8", function (point) {
+                    if (point) {
+                        map.centerAndZoom(point, 16);
+                        var maker = new BMap.Marker(point);
+                        map.addOverlay(maker);
+                        map.enableScrollWheelZoom();
+                        map.openInfoWindow(new BMap.InfoWindow("<h4 style='margin:0;font:bold 14px Tahoma;color:#222222;'><a href='http://a1929784.atobo.com.cn' target='_blank'>武汉慧禹信息科技有限公司</a></h4><p style='color:#111111;font-size:12.5px;'>地址：东湖高新技术开发区关山大道光谷软件园A8</p><p style='color:#111111;font-size:12.5px;'>电话：027-87519608</p>",{offset:new BMap.Size(0,-17)}),point);
+                    }
+                }, "湖北 武汉");
             </script>
-            <script src="http://a"></script>
-            </div>
+
         </div>
+    </div>
 {% endblock %}

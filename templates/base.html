@@ -62,8 +62,8 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right margin-top cl-effect-2">
                     <li><a href="/"><span data-hover="首页">首页</span></a></li>
-                    <li class="field1"><a href="#" id="field"><span data-hover="领域业务">领域业务</span></a></li>
-                    <li><a href="#" id="field1"><span data-hover="解决方案">解决方案</span></a></li>
+                    <li class="field1"><a href="#" id="field" class="nav-tit"><span data-hover="领域业务">领域业务</span></a></li>
+                    <li><a href="#" id="field1" class="nav-tit"><span data-hover="解决方案">解决方案</span></a></li>
                     <li><a href="/xwdt"><span data-hover="合作伙伴">合作伙伴</span></a></li>
                     <li><a href="/news"><span data-hover="新闻动态">新闻动态</span></a></li>
                     <li><a href="/contact"><span data-hover="联系我们">联系我们</span></a></li>
@@ -74,7 +74,7 @@
         </div><!-- /.container-fluid -->
     </nav>
     {% block field %}
-        <div class="field-wrap" style="display: none">
+        <div class="field-wrap field-wrap1" style="display: none" >
             <div class="container">
                 {% for d in domainmenus %}
                     <div class="field-item">
@@ -89,38 +89,52 @@
             </div>
             <script src="../static/js/jquery-2.1.4.min.js"></script>
             <script type="text/javascript">
+{#$("#field").click(function(){#}
+{#            $(".field-wrap2").hide()#}
+{#            $(".field-wrap1").slideDown(3000)#}
+{#            return false;#}
+{#		})#}
+{#        $("#field1").click(function(){#}
+{#            $(".field-wrap1").hide()#}
+{#            $(".field-wrap2").slideDown(3000)#}
+{#            return false;#}
+{#		})#}
+
                 var flag = true;
                 $("#field").click(function () {
                     if (flag) {
-                        $(".field-wrap").slideDown();
+                        $(".field-wrap2").hide();
+                        $(".field-wrap1").slideDown();
                         flag = false;
                     } else {
-                        $(".field-wrap").slideUp();
+                        $(".field-wrap1").slideUp();
                         flag = true;
                     }
                     return false;
                 });
+
                 var flag1 = true;
                 $("#field1").click(function () {
-                    if (flag) {
-                        $(".field1-wrap").slideDown();
+                    if (flag1) {
+                        $(".field-wrap1").hide();
+                        $(".field-wrap2").slideDown();
                         flag1 = false;
                     } else {
-                        $(".field1-wrap").slideUp();
+                        $(".field-wrap2").slideUp();
                         flag1 = true;
                     }
                     return false;
                 })
             </script>
         </div>
-        <div class="field1-wrap" style="display: none">
+        <div class="field-wrap field-wrap2" style="display: none">
             <div class="container">
                 {% for d in domainmenus %}
                     <div class="field-item">
                         <h2><span></span>{{ d.menumain }}</h2>
                         <ul>
                             {% for m in d.menus %}
-                                <li><span></span>{{ m.title }}</li>
+                                <li><span>aa</span>{{ m.title }}</li>
                             {% endfor %}
                         </ul>
                     </div>
