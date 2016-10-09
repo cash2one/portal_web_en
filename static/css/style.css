@@ -151,6 +151,7 @@ span.caret:hover {
 	cursor: pointer;
 	text-decoration: none;
 }
+#container{height: 300px;}
 .cl-effect-2 a span::before {
 	position: absolute;
 	top: 100%;
