@@ -2,7 +2,7 @@
 # -*- coding=utf-8 -*-
 
 from django.contrib import admin
-from models import Para
+from models import Para, CDomain, CSolution, CTypes, CNews
 
 
 class ParaAdmin(admin.ModelAdmin):
@@ -32,6 +32,37 @@ class ParaAdmin(admin.ModelAdmin):
     # 编辑页面自定义检查重载函数
     # def _create_formsets(self, request, obj, change):
 
+
 admin.site.register(Para, ParaAdmin)
 
 
+class CNewsAdmin(admin.ModelAdmin):
+    list_display = ['title', 'summary', 'pic', 'pubtime']
+    style_fields = {"content": 'ueditor'}
+    ordering = ['-pubtime']
+
+
+admin.site.register(CNews, CNewsAdmin)
+
+
+class CTypesAdmin(admin.ModelAdmin):
+    list_display = ['names']
+
+
+admin.site.register(CTypes, CTypesAdmin)
+
+
+class CDomainAdmin(admin.ModelAdmin):
+    list_display = ['title', 'types', 'summary', 'pic', 'pubtime']
+    style_fields = {"content": 'ueditor'}
+
+
+admin.site.register(CDomain, CDomainAdmin)
+
+
+class CSolutionAdmin(admin.ModelAdmin):
+    list_display = ['title', 'types', 'summary', 'pic', 'pubtime']
+    style_fields = {"content": 'ueditor'}
+
+
+admin.site.register(CSolution, CSolutionAdmin)

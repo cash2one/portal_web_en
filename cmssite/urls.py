@@ -19,16 +19,15 @@ from django.contrib import admin
 from django.conf import settings
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
-
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'content.views.mainpage'),
-    url(r'^xwdt/', 'content.views.xwdt'),
-    url(r'^about/', 'content.views.about'),
-    url(r'^contact/', 'content.views.contact'),
-    url(r'^news/', 'content.views.news'),
-    url(r'^newsdetail/', 'content.views.newsdetail'),
-     url(r'^field/', 'content.views.field'),
+    url(r'^xwdt/$', 'content.views.xwdt'),
+    url(r'^about/$', 'content.views.about'),
+    url(r'^contact/$', 'content.views.contact'),
+    url(r'^news/$', 'content.views.news'),
+    url(r'^newsdetail/(?P<newsid>\w+)/$', 'content.views.newsdetail'),
+    url(r'^field/$', 'content.views.field'),
 
 ]
 
@@ -38,10 +37,10 @@ urlpatterns += [
 ]
 
 urlpatterns += patterns('api.views',
-    url(r'^api/$', 'index'),
-    url(r'^api/docs/$', 'docs'),
-    url(r'^api/docs/(?P<json>\w+)/$', 'module'),
-)
+                        url(r'^api/$', 'index'),
+                        url(r'^api/docs/$', 'docs'),
+                        url(r'^api/docs/(?P<json>\w+)/$', 'module'),
+                        )
 
 urlpatterns += staticfiles_urlpatterns()
 if settings.DEBUG:

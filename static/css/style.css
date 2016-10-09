@@ -102,12 +102,14 @@ span.caret:hover {
 .container .certificate{
 	text-align: center;
 	font-size: 2.7em;
-	color: #739c23;
+	/*color: #739c23;*/
+	color: #ffffff;
 }
 .container .text1{
 	text-align: center;
 	font-size: 18px;
-	color: #739c23;
+	/*color: #739c23;*/
+	color: #ffffff;
 	padding-bottom: 50px;
 }
 .c-blue{
@@ -790,7 +792,8 @@ ul.wmuSliderPagination {
 }
 .banamer-img img{
 	width: 100%;
-	height: 700px;
+	/*height: 700px;*/
+	height: 100%;
 }
 .social {
 	margin-bottom: 15px;
@@ -1193,6 +1196,20 @@ li.grid_2 h4,h5,h6,h1,h2,h3 {
 	font-weight: 100;
 	color: #0B0354;
 	font-size: 3em;
+	text-transform: capitalize;
+	margin: 0px 0px 20px 0px;
+	width: 1170px;
+	margin: 0 auto;
+	/*margin-bottom: 70px;*/
+	/*padding-bottom: 50px;*/
+	color: #739c23;
+	padding-top: 20px;
+}
+.gallery h5{
+
+	font-weight: 100;
+	color: #0B0354;
+	font-size: 1.6em;
 	text-transform: capitalize;
 	margin: 0px 0px 20px 0px;
 	width: 1170px;
