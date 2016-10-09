@@ -89,23 +89,14 @@
             </div>
             <script src="../static/js/jquery-2.1.4.min.js"></script>
             <script type="text/javascript">
-{#$("#field").click(function(){#}
-{#            $(".field-wrap2").hide()#}
-{#            $(".field-wrap1").slideDown(3000)#}
-{#            return false;#}
-{#		})#}
-{#        $("#field1").click(function(){#}
-{#            $(".field-wrap1").hide()#}
-{#            $(".field-wrap2").slideDown(3000)#}
-{#            return false;#}
-{#		})#}
 
                 var flag = true;
                 $("#field").click(function () {
                     if (flag) {
                         $(".field-wrap2").hide();
-                        $(".field-wrap1").slideDown();
+                        $(".field-wrap1").slideToggle();
                         flag = false;
+                        flag1 = true;
                     } else {
                         $(".field-wrap1").slideUp();
                         flag = true;
@@ -119,6 +110,7 @@
                         $(".field-wrap1").hide();
                         $(".field-wrap2").slideDown();
                         flag1 = false;
+                        flag = true;
                     } else {
                         $(".field-wrap2").slideUp();
                         flag1 = true;
@@ -134,7 +126,7 @@
                         <h2><span></span>{{ d.menumain }}</h2>
                         <ul>
                             {% for m in d.menus %}
-                                <li><span>aa</span>{{ m.title }}</li>
+                                <li><span></span>{{ m.title }}</li>
                             {% endfor %}
                         </ul>
                     </div>
