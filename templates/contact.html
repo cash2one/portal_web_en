@@ -1,3 +1,12 @@
+<div class="g-wrap">
+<script src="/static/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type='text/javascript'>
+    (function($){
+        $(window).load(function(){
+            $(".con").mCustomScrollbar();
+        });
+    })(jQuery);
+</script>
 {% extends 'base.html' %}
 {% block home1 %}
     <div class="" id="home1">
@@ -44,13 +53,13 @@
                 var map = new BMap.Map("container");
                 map.addControl(new BMap.NavigationControl());
                 var myGeo = new BMap.Geocoder();
-                myGeo.getPoint("武汉市洪山区关山大道光谷软件园A8", function (point) {
+                myGeo.getPoint("上海市普陀区科技企业总部大厦3楼", function (point) {
                     if (point) {
                         map.centerAndZoom(point, 16);
                         var maker = new BMap.Marker(point);
                         map.addOverlay(maker);
                         map.enableScrollWheelZoom();
-                        map.openInfoWindow(new BMap.InfoWindow("<h4 style='margin:0;font:bold 14px Tahoma;color:#222222;'><a href='http://a1929784.atobo.com.cn' target='_blank'>武汉慧禹信息科技有限公司</a></h4><p style='color:#111111;font-size:12.5px;'>地址：东湖高新技术开发区关山大道光谷软件园A8</p><p style='color:#111111;font-size:12.5px;'>电话：027-87519608</p>",{offset:new BMap.Size(0,-17)}),point);
+                        map.openInfoWindow(new BMap.InfoWindow("<h4 style='margin:0;font:bold 14px Tahoma;color:#222222;'><a href='http://a1929784.atobo.com.cn' target='_blank'>上海市普陀区科技企业总部大厦3楼</a></h4><p style='color:#111111;font-size:12.5px;'>地址：东湖高新技术开发区关山大道光谷软件园A8</p><p style='color:#111111;font-size:12.5px;'>电话：027-87519608</p>",{offset:new BMap.Size(0,-17)}),point);
                     }
                 }, "湖北 武汉");
             </script>
@@ -58,3 +67,4 @@
         </div>
     </div>
 {% endblock %}
+</div>

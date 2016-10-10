@@ -1,31 +1,46 @@
+<div class="g-wrap">
+<script src="/static/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type='text/javascript'>
+    (function($){
+        $(window).load(function(){
+            $(".con").mCustomScrollbar();
+        });
+    })(jQuery);
+</script>
 {% extends 'base.html' %}
 
 {% block header_banner %}
     <div class="header-banner">
         <!-- Top Navigation -->
         <div class="container page-seperator">
-            {% comment %}<section class="color bgi">
-                <div class="text">
-                    <ul id="slider1" class="clear">
-                        <li><img src="../static/images/lunbo1.png"/></li>
-                        <li><img src="../static/images/lunbo2.png"/></li>
-                        <li><img src="../static/images/lunbo3.png"/></li>
-                    </ul>
-                </div>
-            </section>{% endcomment %}
             <section class="color bgi">
                 <div id="slideBox" class=" slideBox">
                     <div class="text bd">
                         <ul id="" class="clear">
-                            <li><img src="../static/images/lunbo1.png"/></li>
-                            <li><img src="../static/images/lunbo2.png"/></li>
-                            <li><img src="../static/images/lunbo3.png"/></li>
+                            <li>
+                                <p class="text1">
+                                    <img class="focus" src="../static/images/focus.png"/>
+                                    <em class="banaer-text1">聚焦&nbsp;&nbsp;</em>智慧交通&nbsp;&nbsp; 智慧旅游&nbsp;&nbsp; 智慧教育&nbsp;&nbsp; 智慧建筑
+                                </p>
+                            </li>
+                            <li>
+                                {#<img src="../static/images/lunbo2.png"/>#}
+                               <p class="text2 clear">
+                                <span class="banaer-text2"><em class="font">7*24</em>&nbsp;小时远程服务</span><br>
+                                <span class="banaer-text3">快捷&nbsp;高效&nbsp;互信&nbsp;<em class="font">service</em></span>
+                               </p>
+                            </li>
+                            <li>
+                                {#<img src="../static/images/lunbo3.png"/>#}
+                                <span class="banaer-text4">WISH</span><br>
+                                <span class="banaer-text5">智能科技让生活更美好！</span>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </section>
             <script src="/static/js/jquery-2.1.4.min.js"></script>
-            <script src="/static/js/jquery.SuperSlide.2.1.1.js"></script>
+           <script src="/static/js/jquery.SuperSlide.2.1.1.js"></script>
             <script type="text/javascript">
                 jQuery(".slideBox").slide({mainCell: ".bd ul", autoPlay: true, effect: "leftLoop", delayTime:2000,interTime:7000});
             </script>
@@ -249,3 +264,4 @@
         </div>
     </div>
 {% endblock %}
+</div>
