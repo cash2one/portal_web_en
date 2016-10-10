@@ -38,7 +38,7 @@ class CNews(models.Model):
     summary = models.CharField(max_length=255, verbose_name=u'摘要')
     pubtime = models.DateField(verbose_name=u'发布时间')
     pic = models.ImageField(upload_to='domain', storage=ImageStorage(), verbose_name=u'图片')
-    content = UEditorField(u"文档内容", width=840, height=460, imagePath="news/", toolbars='full', blank=True)
+    content = UEditorField(u"文档内容", width=840, height=460, imagePath="news/", toolbars='full', )
 
     class Meta:
         db_table = "t_news"
@@ -55,7 +55,7 @@ class CDomain(models.Model):
     summary = models.CharField(max_length=255, blank=True, null=True, verbose_name=u'摘要')
     pubtime = models.DateField(verbose_name=u'发布时间', blank=True, null=True, )
     pic = models.ImageField(upload_to='domain', storage=ImageStorage(), blank=True, verbose_name=u'图片')
-    content = UEditorField(u"文档内容", width=840, height=460, imagePath="domain/", toolbars='full', blank=True)
+    content = UEditorField(u"文档内容", width=840, height=460, imagePath="domain/", toolbars='full', )
 
     class Meta:
         db_table = "t_domain"
@@ -72,7 +72,7 @@ class CSolution(models.Model):
     summary = models.CharField(max_length=255, verbose_name=u'摘要')
     pubtime = models.DateField(verbose_name=u'发布时间')
     pic = models.ImageField(upload_to='solution', storage=ImageStorage(), blank=True, verbose_name=u'图片')
-    content = UEditorField(u"文档内容", width=840, height=460, imagePath="solution/", toolbars='full', blank=True)
+    content = UEditorField(u"文档内容", width=840, height=460, imagePath="solution/", toolbars='full',)
 
     class Meta:
         db_table = "t_solution"

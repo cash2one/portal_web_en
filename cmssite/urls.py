@@ -27,13 +27,11 @@ urlpatterns = [
     url(r'^contact/$', 'content.views.contact'),
     url(r'^news/$', 'content.views.news'),
     url(r'^newsdetail/(?P<newsid>\w+)/$', 'content.views.newsdetail'),
+    url(r'^domaindetail/(?P<domainid>\w+)/$', 'content.views.domaindetail'),
+    url(r'^solutiondetail/(?P<solutionid>\w+)/$', 'content.views.solutiondetail'),
     url(r'^field/$', 'content.views.field'),
 
-]
-
-urlpatterns += [
-    url(r'^media/(?P<path>.*)', 'django.views.static.serve',
-        {'document_root': 'c://git//cms//static//'}),
+    url(r'^ueditor/', include('DjangoUeditor.urls')),
 ]
 
 urlpatterns += patterns('api.views',
@@ -43,9 +41,8 @@ urlpatterns += patterns('api.views',
                         )
 
 urlpatterns += staticfiles_urlpatterns()
-if settings.DEBUG:
-    urlpatterns += patterns('',
-                            url(r'^media/(?P<path>.*)$',
-                                'django.views.static.serve',
-                                {'document_root': settings.MEDIA_ROOT,}),
-                            )
+urlpatterns += patterns('',
+                        url(r'^media/(?P<path>.*)$',
+                            'django.views.static.serve',
+                            {'document_root': settings.MEDIA_ROOT,}),
+                        )

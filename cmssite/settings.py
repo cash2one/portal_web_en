@@ -29,8 +29,22 @@ SECRET_KEY = '=h@n-ejwd855!km+=tfv!2ebg=v_ie-0!z2l*z$&*d@z!37w4@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+TEMPLATE_DEBUG = DEBUG
 
+ALLOWED_HOSTS = []
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR, 'templates'),
+)
+
+TEMPLATE_CONTEXT_PROCESSORS = (
+    "django.contrib.auth.context_processors.auth",
+    "django.core.context_processors.debug",
+    "django.core.context_processors.i18n",
+    "django.core.context_processors.media",
+    "django.core.context_processors.static",
+    "django.core.context_processors.request",
+    "django.contrib.messages.context_processors.messages"
+)
 # Application definition
 
 INSTALLED_APPS = (
@@ -41,8 +55,9 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'api',
+    'crispy_forms',
     'DjangoUeditor',
+    'api',
     'para',
     'user',
     'logs',
@@ -50,49 +65,42 @@ INSTALLED_APPS = (
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
-    'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.gzip.GZipMiddleware',
-    'django.middleware.security.SecurityMiddleware',
 )
 
 ROOT_URLCONF = 'cmssite.urls'
 
-TEMPLATES = [
-    {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(PROJECT_PATH, '../templates'), ],
-        'APP_DIRS': True,
-        'OPTIONS': {
-            'context_processors': [
-                'django.template.context_processors.debug',
-                'django.template.context_processors.request',
-                'django.core.context_processors.i18n',
-                'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
-                'django.core.context_processors.media',
-            ],
-        },
-    },
-]
 
+# UEDITOR_SETTINGS
 UEDITOR_SETTINGS = {
-    'toolbars': {
+    "toolbars": {
+
     },
-    'images_upload': {
-        'allow_type': 'jpeg,jpg,png,gif',
-        'max_size': '3222kb'
-    },
-    'files_upload': {
-        'allow_type': 'doc',
-        'max_size': '2222kb'
+    "upload": {
+
+        "videoMaxSize": 5120000000,
+        "videoAllowFiles": [
+            ".flv", ".swf", ".mkv", ".avi", ".rm", ".rmvb", ".mpeg", ".mpg",
+            ".ogg", ".ogv", ".mov", ".wmv", ".mp4", ".webm", ".mp3", ".wav", ".mid"],
+
+        "fileMaxSize": 51200000,
+        "fileAllowFiles": [
+            ".png", ".jpg", ".jpeg", ".gif", ".bmp",
+            ".flv", ".swf", ".mkv", ".avi", ".rm", ".rmvb", ".mpeg", ".mpg",
+            ".ogg", ".ogv", ".mov", ".wmv", ".mp4", ".webm", ".mp3", ".wav", ".mid",
+            ".rar", ".zip", ".tar", ".gz", ".7z", ".bz2", ".cab", ".iso",
+            ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".pdf", ".txt", ".md", ".xml"
+        ],
+        "imageMaxSize": 5120000,
+        "imageAllowFiles": [".png", ".jpg", ".jpeg", ".gif", ".bmp"],
     }
+
 }
+
 
 WSGI_APPLICATION = 'cmssite.wsgi.application'
 
@@ -110,7 +118,7 @@ DATABASES = {
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
 SITE_ID = 1
-LANGUAGE_CODE = 'en-US'
+LANGUAGE_CODE = 'zh_CN'
 
 TIME_ZONE = 'UTC'
 

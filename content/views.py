@@ -1,26 +1,42 @@
 # coding=utf-8
 from django.shortcuts import render
 
-from para.models import CNews, CDomain
+from para.models import CNews, CDomain, CSolution
 
 
 def get_base_info(request):
     ctx = {}
     # domain
     domains = CDomain.objects.all()
-    listmenu = []
+    listdomainmenu = []
     for d in domains:
-        if d.types.names not in listmenu:
-            listmenu.append(d.types.names)
+        if d.types.names not in listdomainmenu:
+            listdomainmenu.append(d.types.names)
 
-    listret = []
-    for l in listmenu:
+    listdomainret = []
+    for l in listdomainmenu:
         listdm = []
         for d in domains:
             if l == d.types.names:
                 listdm.append(d)
-        listret.append({'menumain': l, 'menus': listdm})
-    ctx['domainmenus'] = listret
+        listdomainret.append({'menumain': l, 'menus': listdm})
+    ctx['domainmenus'] = listdomainret
+
+    # solution
+    solutions = CSolution.objects.all()
+    listsolutionmenu = []
+    for s in solutions:
+        if s.types.names not in listsolutionmenu:
+            listsolutionmenu.append(s.types.names)
+
+    listsolutionret = []
+    for l in listsolutionmenu:
+        listdm = []
+        for s in solutions:
+            if l == s.types.names:
+                listdm.append(s)
+        listsolutionret.append({'menumain': l, 'menus': listdm})
+    ctx['solutionmenus'] = listsolutionret
     return ctx
 
 
@@ -55,6 +71,20 @@ def news(request):
     news = CNews.objects.all()
     ctx['news'] = news
     return render(request, 'news.html', ctx)
+
+
+def domaindetail(request, domainid):
+    ctx = get_base_info(request)
+    newsobj = CDomain.objects.get(pk=domainid)
+    ctx['newsobj'] = newsobj
+    return render(request, 'news-detail.html', ctx)
+
+
+def solutiondetail(request, solutionid):
+    ctx = get_base_info(request)
+    newsobj = CSolution.objects.get(pk=solutionid)
+    ctx['newsobj'] = newsobj
+    return render(request, 'news-detail.html', ctx)
 
 
 def newsdetail(request, newsid):

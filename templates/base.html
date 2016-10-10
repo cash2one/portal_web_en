@@ -24,12 +24,10 @@
     <link href='http://fonts.googleapis.com/css?family=Coda:400,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Jockey+One' rel='stylesheet' type='text/css'>
     <!--script-->
+    <script src="/static/js/jquery-2.1.4.min.js"></script>
+    <script src="/static/js/modernizr.custom.js"></script>
     <script type="text/javascript" src="/static/js/move-top.js"></script>
     <script type="text/javascript" src="/static/js/easing.js"></script>
-    <script src="/static/js/modernizr.custom.js"></script>
-    <script src="/static/js/jquery-2.1.4.min.js"></script>
-    <script src="/static/js/jquery-2.1.4.min.js"></script>
-    <script src="/static/js/bootstrap.min.js"></script>
     <script src="/static/js/jquery.SuperSlide.2.1.1.js"></script>
     <!--script-->
     <script type="text/javascript">
@@ -56,13 +54,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"></a>
+                <a class="navbar-brand" href="/"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right margin-top cl-effect-2">
                     <li><a href="/"><span data-hover="首页">首页</span></a></li>
-                    <li class="field1"><a href="#" id="field" class="nav-tit"><span data-hover="领域业务">领域业务</span></a></li>
+                    <li class="field1"><a href="#" id="field" class="nav-tit"><span data-hover="智慧业务">智慧业务</span></a></li>
                     <li><a href="#" id="field1" class="nav-tit"><span data-hover="解决方案">解决方案</span></a></li>
                     <li><a href="/xwdt"><span data-hover="合作伙伴">合作伙伴</span></a></li>
                     <li><a href="/news"><span data-hover="新闻动态">新闻动态</span></a></li>
@@ -81,7 +79,7 @@
                         <h2><span></span>{{ d.menumain }}</h2>
                         <ul>
                             {% for m in d.menus %}
-                                <li><span></span>{{ m.title }}</li>
+                                <li><a href="/domaindetail/{{ m.pk }}" target="_blank"><span></span>{{ m.title }}</a></li>
                             {% endfor %}
                         </ul>
                     </div>
@@ -121,12 +119,12 @@
         </div>
         <div class="field-wrap field-wrap2" style="display: none">
             <div class="container">
-                {% for d in domainmenus %}
+                {% for s in solutionmenus %}
                     <div class="field-item">
-                        <h2><span></span>{{ d.menumain }}</h2>
+                        <h2><span></span>{{ s.menumain }}</h2>
                         <ul>
-                            {% for m in d.menus %}
-                                <li><span></span>{{ m.title }}</li>
+                            {% for m in s.menus %}
+                                <li><a href="/solutiondetail/{{ m.pk }}" target="_blank"><span></span>{{ m.title }}</a></li>
                             {% endfor %}
                         </ul>
                     </div>
@@ -168,7 +166,7 @@
 <div class="footer" id="footer">
     <div class="container">
         <div class="copy-rt">
-            <p>Copyright 2011-2013 All Rights Reserved 武汉慧禹信息科技有限公司版权所有 鄂ICP备12012524号</p>
+            <p>Copyright 2011-2016 All Rights Reserved 慧禹（中国）信息科技有限公司版权所有 鄂ICP备12012524号</p>
         </div>
     </div>
 </div>

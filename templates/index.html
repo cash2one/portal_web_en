@@ -42,25 +42,31 @@
             <script src="/static/js/jquery-2.1.4.min.js"></script>
            <script src="/static/js/jquery.SuperSlide.2.1.1.js"></script>
             <script type="text/javascript">
-                jQuery(".slideBox").slide({mainCell: ".bd ul", autoPlay: true, effect: "leftLoop", delayTime:2000,interTime:7000});
+                jQuery(".slideBox").slide({
+                    mainCell: ".bd ul",
+                    autoPlay: true,
+                    effect: "leftLoop",
+                    delayTime: 2000,
+                    interTime: 7000
+                });
             </script>
             <section class="col-3 ss-style-doublediagonal our-features">
                 <h1>核心价值</h1>
-                <p>此处应有掌声，这是一句体现企业核心价值简介的话，低调奢华有内涵</p>
+                <p>慧禹（中国）信息技术有限公司一直致力于为全球用户提供专业的IT解决方案与服务，<br>通过持续地迭代和技术创新，为企业及政府客户提升IT核心能力，为社会“互联网+”的发展创造核心价值！ </p>
                 <div class="column our-feat">
                     <span class="glyphicon glyphicon-globe our-icons" aria-hidden="true"></span>
-                    <h3>平台化物联网解决方案</h3>
-                    <p>平台化物联网解决方案平台化物联网解决方案平台化物联网解决方案平台化物联网解决方案 </p>
+                    <h3>平台化物联网IOT解决方案</h3>
+                    <p>物联网是新一代信息技术的重要组成部分，也是“信息化”时代的重要发展阶段。慧禹IOT解决方案结合智慧城市战略，形成多领域的物联网解决方案。 </p>
                 </div>
                 <div class="column our-feat">
                     <span class="glyphicon glyphicon-phone our-icons" aria-hidden="true"></span>
                     <h3>移动端自动化设计与开发</h3>
-                    <p>平台化物联网解决方案平台化物联网解决方案平台化物联网解决方案平台化物联网解决方案 </p>
+                    <p>慧禹移动端解决方案涵盖了政务、交通、旅游、教育等领域，在互联网信息技术服务领域，为客户提供研究及开发产品工程解决方案。</p>
                 </div>
                 <div class="column our-feat">
                     <span class="glyphicon glyphicon-cog our-icons" aria-hidden="true"></span>
-                    <h3>高效内控管理</h3>
-                    <p>平台化物联网解决方案平台化物联网解决方案平台化物联网解决方案平台化物联网解决方案 </p>
+                    <h3>注重知识产权</h3>
+                    <p>慧禹拥有自主知识产权的多个成熟解决方案，作为高新技术企业，我们具备高性能、高可靠性的研发生产能力，为客户提供强有力的技术保障。</p>
                 </div>
                 <div class="clearfix"></div>
             </section>
@@ -75,14 +81,14 @@
                     {% for n in news %}
                         <li>
                             <h2 class="c-blue">公司动态</h2>
-                            <p class="c-blue">此处应有掌声，这是一句体现企业核心价值简介的话，低调奢华有内涵</p>
+                            <p class="c-blue-p">公司运营总部位于上海，并在武汉国家级高新技术开发区--光谷建立了研发和交付中心，同时在美国、法国、加拿大、香港、北京等全球十几个国家和地区建立了营销与服务中心。</p>
                             <div class="news clear">
                                 <img src="{{ n.pic.url }}"/>
                                 <h2>{{ n.title }}</h2>
                                 <p>
                                     {{ n.summary }}
                                 </p>
-                                <a href="/news">更多...</a>
+                                <a href="/news" target="_blank">更多...</a>
                             </div>
                         </li>
                     {% endfor %}
@@ -109,8 +115,8 @@
     </div>
     <section class="slider" id="slider">
         <div class="container">
-        <h2 class="certificate">资质证书</h2>
-        <p class="text1">此处应有掌声，这是一句体现企业核心价值简介的话，低调奢华有内涵</p>
+            <h2 class="certificate">资质证书</h2>
+            <p class="text1">在互联网信息技术服务领域，为客户提供研究及开发产品工程解决方案、 应用软件开发和维护、 质量保证和测试以及业务流程外包等服务，行业涉及政府、金融、医药、电气、汽车、数字新媒体、能源、环保等领域。</p>
             <div class="flexslider flexslider-2">
                 <ul class="slides">
                     <li>
@@ -182,10 +188,10 @@
     <div class="our-work" id="our-work">
         <div class="container">
             <h2 class="c-blue">我们的业务</h2>
-            <p class="c-blue">此处应有掌声，这是一句体现企业核心价值简介的话，低调奢华有内涵</p>
+            <p class="c-blue">公司的业务方向基于多种的开发工具：pyCharm(Python)、IntelliJ idea(Java)、QT(C++)、xCode(IOS)和Android Studio(安卓)，<br>以云计算、大数据访问、移动端自动生成、点对点视频等为核心技术，<br>在智慧城市领域，已形成智慧交通、智慧旅游、智慧教育和智慧商圈等“一揽子”解决方案。</p>
             <div class="gallery-bottom">
                 <div class="col-md-4 bottom-gallery">
-                    <a href="/static/images/IMG_3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                    <a href="#" rel="title" class="b-link-stripe b-animate-go  thickbox">
                         <img class="img-responsive" src="/static/images/IMG_3.jpg"/>
                         <div class="b-wrapper">
                             <h3 class="b-animate b-from-left    b-delay03 ">
@@ -196,7 +202,7 @@
                     </a>
                 </div>
                 <div class="col-md-4 bottom-gallery">
-                    <a href="/static/images/IMG_1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                    <a href="#" rel="title" class="b-link-stripe b-animate-go  thickbox">
                         <img class="img-responsive" src="/static/images/IMG_1.jpg"/>
                         <div class="b-wrapper">
                             <h3 class="b-animate b-from-left    b-delay03 ">
@@ -207,7 +213,7 @@
                     </a>
                 </div>
                 <div class="col-md-4 bottom-gallery">
-                    <a href="/static/images/IMG_5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                    <a href="#" rel="title" class="b-link-stripe b-animate-go  thickbox">
                         <img class="img-responsive" src="/static/images/IMG_5.jpg"/>
                         <div class="b-wrapper">
                             <h3 class="b-animate b-from-left    b-delay03 ">
@@ -218,7 +224,7 @@
                     </a>
                 </div>
                 <div class="col-md-4 bottom-gallery">
-                    <a href="/static/images/IMG_2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                    <a href="#" rel="title" class="b-link-stripe b-animate-go  thickbox">
                         <img class="img-responsive" src="/static/images/IMG_2.jpg"/>
                         <div class="b-wrapper">
                             <h3 class="b-animate b-from-left    b-delay03 ">
@@ -229,7 +235,7 @@
                     </a>
                 </div>
                 <div class="col-md-4 bottom-gallery">
-                    <a href="/static/images/IMG_4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                    <a href="#" rel="title" class="b-link-stripe b-animate-go  thickbox">
                         <img class="img-responsive" src="/static/images/IMG_4.jpg"/>
                         <div class="b-wrapper">
                             <h3 class="b-animate b-from-left    b-delay03 ">
@@ -240,7 +246,7 @@
                     </a>
                 </div>
                 <div class="col-md-4 bottom-gallery">
-                    <a href="/static/images/IMG_6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                    <a href="#" rel="title" class="b-link-stripe b-animate-go  thickbox">
                         <img class="img-responsive" src="/static/images/IMG_6.jpg"/>
                         <div class="b-wrapper">
                             <h3 class="b-animate b-from-left    b-delay03 ">
