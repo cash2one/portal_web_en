@@ -17,16 +17,16 @@ body{
     src: url('../fonts/Open_Sans/方正幼线_GBK.ttf');
 } 
 @font-face{
-    font-family: 'changcheng';
-    src: url('../fonts/Open_Sans/changcheng.ttf');
-} 
-@font-face{
     font-family: '长城新艺体';
-    src: url('../fonts/Open_Sans/长城新艺体.TTF');
+    src: url('../fonts/Open_Sans/长城新艺体繁.TTF');
 } 
 @font-face{
     font-family: 'zaozi';
     src: url('../fonts/Open_Sans/zaozi.OTF');
+} 
+@font-face{
+    font-family: 'changcheng';
+    src: url('../fonts/Open_Sans/changcheng.ttf');
 } 
 /*--fonts--*/
 body{
@@ -335,7 +335,6 @@ span.glyphicon.glyphicon-search.edit {
  	padding-top: 120px;
  	padding-bottom: 100px;
  	font-family: "zaozi";
- 	background-image:url(../images/focus.png);
 	background: #fff;
 	background:rgba(255, 255, 255, 0.2) none repeat scroll 0 0 !important;
 	margin: 0 auto;
@@ -353,7 +352,7 @@ span.glyphicon.glyphicon-search.edit {
 	background: #fff;
 	background:rgba(0, 0, 0, 0.2) none repeat scroll 0 0 !important;
 	margin: 0 auto;
-	font-family: "长城新艺体";
+	font-family: "changcheng";
 	font-size: 40px;
 	position: relative;
 	
@@ -362,11 +361,11 @@ span.glyphicon.glyphicon-search.edit {
 	font-size: 40px;
 	float: right;
 	margin-right: 120px;
-	font-family: "长城新艺体";
+	font-family: "changcheng";
 }
 .page-seperator .text .banaer-text3{
 	font-size: 50px;
-	font-family: "长城新艺体";
+	font-family: "changcheng";
 	float: right;
 	margin-right: 120px;
 }
@@ -864,8 +863,12 @@ ul.wmuSliderPagination {
 }
 .banamer-img img{
 	width: 100%;
-	/*height: 700px;*/
-	height: 100%;
+	/* height: 700px; */
+	/* height: 100%; */
+}
+.banamer-img .img{
+	width: 100%;
+	height: 400px;
 }
 .social {
 	margin-bottom: 15px;
