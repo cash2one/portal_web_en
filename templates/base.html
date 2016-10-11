@@ -20,13 +20,13 @@
     <link href="/static/css/jPages.css" rel="stylesheet" type="text/css">
     <!--coustom css-->
     <link href="/static/css/style.css" rel="stylesheet" type="text/css"/>
-    <link href="/static/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css"/>
+    {#<link href="/static/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css"/>#}
 
     <!--fonts-->
     <link href='http://fonts.googleapis.com/css?family=Coda:400,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Jockey+One' rel='stylesheet' type='text/css'>
     <!--script-->
-    <script src="/static/js/jquery-2.1.4.min.js"></script>
+    <script src="/static/js/jquery-1.8.3.min.js"></script>
     <script src="/static/js/modernizr.custom.js"></script>
     <script type="text/javascript" src="/static/js/move-top.js"></script>
     <script type="text/javascript" src="/static/js/easing.js"></script>
@@ -41,15 +41,7 @@
         });
     </script>
     <script src="/static/js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script>
-		(function($){
-			$(window).load(function(){
-				$("body").mCustomScrollbar({
-					theme:"minimal"
-				});
-			});
-		})(jQuery);
-	</script>
+    <script src="/static/js/script.js"></script>
     <!--fonts-->
 </head>
 <body>
@@ -71,12 +63,15 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right margin-top cl-effect-2">
                     <li><a href="/"><span data-hover="首页">首页</span></a></li>
-                    <li class="field1">
+                    <li class="field1 item" >
                         <a href="#" id="field" class="nav-tit">
                             <span data-hover="智慧业务">智慧业务</span>
                         </a>
                     </li>
-                    <li><a href="#" id="field1" class="nav-tit"><span data-hover="解决方案">解决方案</span></a></li>
+                    <li class="field1 item">
+                        <a href="#" id="field1" class="nav-tit">
+                        <span data-hover="解决方案">解决方案</span></a>
+                    </li>
                     <li><a href="/xwdt"><span data-hover="合作伙伴">合作伙伴</span></a></li>
                     <li><a href="/news"><span data-hover="新闻动态">新闻动态</span></a></li>
                     <li><a href="/contact"><span data-hover="联系我们">联系我们</span></a></li>
@@ -87,7 +82,7 @@
         </div><!-- /.container-fluid -->
     </nav>
     {% block field %}
-        <div class="field-wrap field-wrap1" style="display: none" >
+        <div class="field-wrap field-wrap1 list-s01" style="display: none" >
             <div class="container">
                 {% for d in domainmenus %}
                     <div class="field-item">
@@ -100,57 +95,8 @@
                     </div>
                 {% endfor %}
             </div>
-            <script src="../static/js/jquery-2.1.4.min.js"></script>
-            <script type="text/javascript">
-
-                var flag = true;
-                $("#field").hover(function () {
-                    if (flag) {
-                        $(".field-wrap2").hide();
-                        $(".field-wrap1").slideDown();
-                        flag = false;
-                        flag1 = true;
-                    } else {
-                       {#$(".field-wrap1").slideUp();#}
-                        flag = true;
-                    }
-                    return false;
-                });
-
-                var flag1 = true;
-                $("#field1").hover(function () {
-                    if (flag1) {
-                        $(".field-wrap1").hide();
-                        $(".field-wrap2").slideDown();
-                        flag1 = false;
-                        flag = true;
-                    } else {
-                        {#$(".field-wrap2").slideUp();#}
-                        flag1 = true;
-                    }
-                    return false;
-                })
-
-                 var flag2 = true;
-                 $(".field-wrap2").hover(function () {
-                     if(flag2){
-                          $(".field-wrap2").show();
-                     }else{
-                         $(".field-wrap2").hide();
-                     }
-                })
-
-                 var flag3 = true;
-                 $(".field-wrap1").hover(function () {
-                     if(flag3){
-                          $(".field-wrap1").show();
-                     }else{
-                         $(".field-wrap1").hide();
-                     }
-                })
-            </script>
         </div>
-        <div class="field-wrap field-wrap2" style="display: none">
+        <div class="field-wrap field-wrap2 list-s01" style="display: none">
             <div class="container">
                 {% for s in solutionmenus %}
                     <div class="field-item">
@@ -164,7 +110,38 @@
                 {% endfor %}
             </div>
         </div>
+          <script src="../static/js/script.js"></script>
+           <script type="text/javascript">
+                $("#field").mouseenter(function () {
+                        $(".field-wrap2").hide();
+                        $(".field-wrap1").stop(true,true).slideDown();
+                });
 
+                $("#field").mouseleave(function () {
+                    $(".field-wrap1").delay(700).slideUp();
+                });
+                 $(".field-wrap1").mouseenter(function () {
+                    $(this).stop(true);
+                 });
+                 $(".field-wrap1").mouseleave(function(){
+                            $(this).slideUp();
+                  })
+
+                $("#field1").mouseenter(function () {
+                        $(".field-wrap1").hide();
+                        $(".field-wrap2").stop(true,true).slideDown();
+                });
+
+                $("#field1").mouseleave(function () {
+                    $(".field-wrap2").delay(700).slideUp();
+                });
+                 $(".field-wrap2").mouseenter(function () {
+                    $(this).stop(true);
+                 });
+                  $(".field-wrap2").mouseleave(function(){
+                            $(this).slideUp();
+                  })
+            </script>
     {% endblock %}
 
     {% block header_banner %}

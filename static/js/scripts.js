@@ -94,3 +94,47 @@ overlay_gallery: false, social_tools: false,  deeplinking: false
 });
 
 
+
+		(function($){
+			$(window).load(function(){
+				$("body").mCustomScrollbar({
+					theme:"minimal"
+				});
+			});
+		})(jQuery);
+	
+	$function(){
+		 $(".nav .item").click(function(){
+                    alert(1)
+                })
+                function showList(){
+                    var timer = null;
+                    var aNav = $(".nav .item");
+                    var listNav = $('.field-wrap');
+                    var currentActive = aNav.filter('.activell').index();
+
+                    aNav.each(function(index,elements){
+                        $(elements).mouseenter(function(){
+                           {# $(this).addClass("active").siblings().removeClass("active");
+                            $(this).siblings().removeClass("activell");#}
+                            $(".list-s0"+ (index+1) +"").stop(true,true).slideDown();
+                            $(".list-s0"+ (index+1) +"").siblings(".field-wrap").stop(true,true).slideUp();
+                        });
+
+                        $(elements).mouseleave(function(){
+                            listNav.eq(index).delay(700).slideUp();
+                        })
+
+                        listNav.eq(index).mouseenter(function(){
+                            $(this).stop(true);
+                        });
+
+                        listNav.eq(index).mouseleave(function(){
+                            $(this).slideUp();
+                           {# aNav.removeClass("active");
+                            aNav.eq(currentActive).addClass('active')#}
+                        })
+                    });
+                }
+                showList()
+	}

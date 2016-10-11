@@ -50,7 +50,7 @@ body{
 .navbar-default {
 	background-color: #fff;
 	border:none;
-	/* padding: 1em 0em; */
+	padding: 1em 0em; 
 	margin: 0;
 	border-radius: 0;
 	z-index: 2;
@@ -1243,6 +1243,13 @@ li.grid_2 h4,h5,h6,h1,h2,h3 {
 	line-height: 32px;
 	position: relative;
 	cursor: pointer;
+}
+.field-wrap .field-item li a{
+	color: #fff;
+	text-decoration: none;
+}
+.field-wrap .field-item li a:hover{
+	color: #739c23;
 }
 .field-wrap .field-item li span{
 	width: 4px;
