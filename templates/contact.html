@@ -1,10 +1,13 @@
-
 {% extends 'base.html' %}
+
 {% block home1 %}
 
     <div class="" id="home1">
         <div class="banamer-img">
-            <img class="img" src="../static/images/3.jpg"/>
+{#            <img src="../static/images/banner02.jpg"/>#}
+            <video autoplay loop class="video" width="100%" height="100%">
+            <source src="/static/videos/iot.mp4"/>
+        </video>
         </div>
         <div class="contact">
             <div class="tit">
@@ -13,24 +16,28 @@
             <div class="contact_page">
                 <div class="container w1000">
                     <div class="col-md-3 fl cnt-pg">
-                        <h4>武汉慧禹信息科技有限公司</h4>
+                        <h4>慧禹（中国）信息科技有限公司</h4>
                         <ul>
-                            <li>湖北省武汉市东湖高新开发区</li>
-                            <li>关山大道</li>
-                            <li>光谷软件园</li>
-                            <li>A8栋</li>
-                            <li><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>027-87519608</li>
+                            <li>公司总部：</li>
+                            <li>上海市普陀区科技企业总部大厦3楼</li>
+                            <li>研发中心：</li>
+                            <li>湖北省武汉市光谷软件园A8栋</li>
+                            {#                            <li><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>027-87519608</li>#}
                         </ul>
                     </div>
                     <div class="col-md-8 fr cnt-pg">
                         <h4>请联系我们</h4>
-                        <textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '请输入.....';}">请输入......</textarea>
+                        <textarea value="Message:" onfocus="this.value = '';"
+                                  onblur="if (this.value == '') {this.value = '请输入.....';}">请输入......</textarea>
                         <form>
-                            <input class="name" type="text" name="name" value="您的姓名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '您的姓名';}"><br>
+                            <input class="name" type="text" name="name" value="您的姓名" onfocus="this.value = '';"
+                                   onblur="if (this.value == '') {this.value = '您的姓名';}"><br>
                             <br>
-                            <input class="nuber" type="text" name="Phone number" value="手机号码" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '手机号码';}"><br>
+                            <input class="nuber" type="text" name="Phone number" value="手机号码" onfocus="this.value = '';"
+                                   onblur="if (this.value == '') {this.value = '手机号码';}"><br>
                             <br>
-                            <input class="mail2" type="text" name="email" value="邮箱地址" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '邮箱地址';}"><br>
+                            <input class="mail2" type="text" name="email" value="邮箱地址" onfocus="this.value = '';"
+                                   onblur="if (this.value == '') {this.value = '邮箱地址';}"><br>
                             <br>
                             <button type="submit" class="btn btn-info1 mrgn-can">提交</button>
                         </form>
@@ -38,9 +45,10 @@
                 </div>
             </div>
         </div>
-         <div class="map">
-            <script type="text/javascript" src="http://api.map.baidu.com/api?ak=4xXGMMnrGoESPPO7zgNCSpi9L2EPwikB&v=2.0&services=false"></script>
-            <div  id="container"></div>
+        <div class="map">
+            <script type="text/javascript"
+                    src="http://api.map.baidu.com/api?ak=4xXGMMnrGoESPPO7zgNCSpi9L2EPwikB&v=2.0&services=false"></script>
+            <div id="container"></div>
 
             <script>
                 var map = new BMap.Map("container");
@@ -52,23 +60,10 @@
                         var maker = new BMap.Marker(point);
                         map.addOverlay(maker);
                         map.enableScrollWheelZoom();
-                        map.openInfoWindow(new BMap.InfoWindow("<h4 style='margin:0;font:bold 14px Tahoma;color:#222222;'><a href='http://a1929784.atobo.com.cn' target='_blank'>上海市普陀区科技企业总部大厦3楼</a></h4><p style='color:#111111;font-size:12.5px;'>地址：东湖高新技术开发区关山大道光谷软件园A8</p><p style='color:#111111;font-size:12.5px;'>电话：027-87519608</p>",{offset:new BMap.Size(0,-17)}),point);
+                        map.openInfoWindow(new BMap.InfoWindow("<h4 style='margin:0;font:bold 14px Tahoma;color:#222222;'><a href='http://a1929784.atobo.com.cn' target='_blank'>慧禹（中国）信息科技有限公司</a></h4><p style='color:#111111;font-size:12.5px;'>地址：上海市普陀区科技企业总部大厦3楼</p><p style='color:#111111;font-size:12.5px;'></p>", {offset: new BMap.Size(0, -17)}), point);
                     }
-                }, "湖北 武汉");
+                }, "上海");
             </script>
 
         </div>
-    </div>
-    <script src="/static/js/jquery.mousewheel.js"></script>
-    <script type='text/javascript'>
-        $(document).on("mousewheel",function(e){
-            var scrollTop = $(document).scrollTop() + e.deltaY;
-            console.log($(document).scrollTop());
-
-          {#  $('body,html').animate({
-                scrollTop:scrollTop
-            },1000);
-        })#}
-
-</script>
 {% endblock %}

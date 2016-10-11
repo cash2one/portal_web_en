@@ -1,20 +1,21 @@
-
 {% extends 'base.html' %}
 
 {% block news %}
+    <div class="banamer-img">
+        <img src="/static/images/005.jpg"/>
+    </div>
+    <div class="news-detail">
+        <div class="container ">
 
-<div class="news-detail">
-    <div class="container ">
-
-        <div class="news-detail">
-           <h2>{{ newsobj.title }}</h2>
-            <span>{{ newsobj.pubtime }}</span>
-            <p>
-                {% autoescape off %}
-                {{ newsobj.content }}
-                {% endautoescape %}
-            </p>
+            <div class="news-detail">
+                <h2>{{ newsobj.title }}</h2>
+                <span>{{ newsobj.pubtime }}</span>
+                <p>
+                    {% autoescape off %}
+                        {{ newsobj.content }}
+                    {% endautoescape %}
+                </p>
+            </div>
         </div>
     </div>
-</div>
 {% endblock %}

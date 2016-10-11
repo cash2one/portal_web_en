@@ -1,40 +1,37 @@
-
 {% extends 'base.html' %}
 {% block news %}
-<div class="banamer-img">
-    <img src="../static/images/banner22.jpg"/>
-</div>
-<div class="news">
-    <div class="tit">
-        <h3><span>新闻动态</span></h3>
+    <div class="banamer-img">
+        <img src="../static/images/banner22.jpg"/>
     </div>
+    <div class="news">
+        <div class="tit">
+            <h3><span>新闻动态</span></h3>
+        </div>
 
-    <div class="container ">
+        <div class="container ">
 
-        <div class="news-wrap">
-            <ul class="news-list" id="itemContainer">
-                {% for n in news %}
-                <li class=" gal-alt news-item clear">
-                    <a href="/newsdetail/{{ n.pk }}">
-                        <img src="{{ n.pic.url }}" width="200px" height="140px"/>
-                        <h3>{{ n.title }}</h3>
-                        <span>{{ n.pubtime }}</span>
-                        <p>{{ n.summary }}</p>
-                    </a>
-                </li>
-                {% endfor %}
-            </ul>
-            <div class="holder">
+            <div class="news-wrap">
+                <ul class="news-list" id="itemContainer">
+                    {% for n in news %}
+                        <li class=" gal-alt news-item clear">
+                            <a href="/newsdetail/{{ n.pk }}">
+                                <img src="{{ n.pic.url }}" width="200px" height="140px"/>
+                                <h3>{{ n.title }}</h3>
+                                <span>{{ n.pubtime }}</span>
+                                <p>{{ n.summary }}</p>
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+                <div class="holder">
+                </div>
+                <script src="/static/js/jPages.js"></script>
+                <script>
+                    $("div.holder").jPages({
+                        containerID: "itemContainer"
+                    });
+                </script>
             </div>
-            <script src="/static/js/jquery-2.1.4.min.js"></script>
-            <script src="/static/js/jPages.js"></script>
-            <script>
-                $("div.holder").jPages({
-                    containerID: "itemContainer"
-                });
-            </script>
-
         </div>
     </div>
-</div>
 {% endblock %}
