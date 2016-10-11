@@ -51,7 +51,7 @@ class CNews(models.Model):
 
 class CDomain(models.Model):
     title = models.CharField(max_length=255, unique=True, verbose_name=u'标题')
-    types = models.ForeignKey(CTypes, blank=True, null=True, verbose_name=u'领域类型')
+    types = models.ForeignKey(CTypes, blank=True, null=True, verbose_name=u'解决方案类型')
     summary = models.CharField(max_length=255, blank=True, null=True, verbose_name=u'摘要')
     pubtime = models.DateField(verbose_name=u'发布时间', blank=True, null=True, )
     pic = models.ImageField(upload_to='domain', storage=ImageStorage(), blank=True, verbose_name=u'图片')
@@ -59,8 +59,8 @@ class CDomain(models.Model):
 
     class Meta:
         db_table = "t_domain"
-        verbose_name_plural = u"领域业务"
-        verbose_name = u"领域业务"
+        verbose_name_plural = u"解决方案"
+        verbose_name = u"解决方案"
 
     def __unicode__(self):
         return self.title
@@ -68,7 +68,7 @@ class CDomain(models.Model):
 
 class CSolution(models.Model):
     title = models.CharField(max_length=255, unique=True, verbose_name=u'标题')
-    types = models.ForeignKey(CTypes, verbose_name=u'解决方案类型')
+    types = models.ForeignKey(CTypes, verbose_name=u'智慧业务类型')
     summary = models.CharField(max_length=255, verbose_name=u'摘要')
     pubtime = models.DateField(verbose_name=u'发布时间')
     pic = models.ImageField(upload_to='solution', storage=ImageStorage(), blank=True, verbose_name=u'图片')
@@ -76,8 +76,8 @@ class CSolution(models.Model):
 
     class Meta:
         db_table = "t_solution"
-        verbose_name_plural = u"解决方案"
-        verbose_name = u"解决方案"
+        verbose_name_plural = u"智慧业务"
+        verbose_name = u"智慧业务"
 
     def __unicode__(self):
         return self.title

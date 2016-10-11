@@ -55,11 +55,6 @@ def xwdt(request):
     return render(request, 'gallery.html', ctx)
 
 
-def about(request):
-    ctx = get_base_info(request)
-    return render(request, 'about.html', ctx)
-
-
 def contact(request):
     ctx = get_base_info(request)
     return render(request, 'contact.html', ctx)

@@ -23,7 +23,6 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'content.views.mainpage'),
     url(r'^xwdt/$', 'content.views.xwdt'),
-    url(r'^about/$', 'content.views.about'),
     url(r'^contact/$', 'content.views.contact'),
     url(r'^news/$', 'content.views.news'),
     url(r'^newsdetail/(?P<newsid>\w+)/$', 'content.views.newsdetail'),
