@@ -75,10 +75,11 @@ ul.nav.navbar-nav.navbar-right.margin-top li{
 	margin:0px 10px 0px 0px;
 	padding:0px 0px 0px 0px;
 }
-.cl-effect-2 a {
+.header .cl-effect-2 a {
 	-webkit-perspective: 1000px;
 	-moz-perspective: 1000px;
 	perspective: 1000px;
+	
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
 	color: #00BFF3;
@@ -93,6 +94,9 @@ ul.nav.navbar-nav.navbar-right.margin-top li{
 span.caret:hover {
 	color: #00BFF3;
 }
+.cl-effect-2 a:active span{
+	color: #739c23!important;
+}
 .cl-effect-2 a span {
 	position: relative;
 	display: inline-block;
@@ -100,6 +104,7 @@ span.caret:hover {
 	font-size: 18px;
 	font-family: "幼圆";
 	font-weight: 600;
+	color: #739c23;
 	background: none !important;
 	-webkit-transition: -webkit-transform 0.3s;
 	-ms-transition: -webkit-transform 0.3s;
@@ -112,7 +117,7 @@ span.caret:hover {
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	color: #739c23;
+	
 }
 .container .certificate{
 	text-align: center;
@@ -179,7 +184,7 @@ span.caret:hover {
 	height: 100%;
 	font-size: 18px;
 	font-weight: 600;
-	color: #94c13d !important;
+	color: #739c23 ; 
 	padding: 0;
 	z-index:999;
 	background: none;
@@ -197,6 +202,9 @@ span.caret:hover {
 	-ms-transform-origin: 50% 0;
 	-moz-transform-origin: 50% 0;
 	transform-origin: 50% 0;
+} 
+.cl-effect-2 a span::before:active {
+	color: #739c23 ; 
 }
 .cl-effect-2 a:hover span,
 .cl-effect-2 a:focus span {
@@ -205,7 +213,7 @@ span.caret:hover {
 	-o-transform: rotateX(90deg) translateY(-22px);
 	-ms-transform: rotateX(90deg) translateY(-22px);
 	transform: rotateX(90deg) translateY(-22px);
-	color: #fff;
+	color: #94c13d;
 }
 
 .csstransforms3d .cl-effect-2 a:hover span::before,
@@ -1214,10 +1222,14 @@ li.grid_2 h4,h5,h6,h1,h2,h3 {
 	padding-top: 22px;
 	color: #fff;
 }
+.display-table{
+	display: table;
+}
 .field-wrap .field-item{
 	width: 20%;
 	float: left;
 	padding: 0 15px;
+	display: table-cell;
 }
 .field-wrap .field-item h2{
 	border-bottom: 2px solid #7d7d7d;
