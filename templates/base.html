@@ -20,6 +20,7 @@
     <link href="/static/css/jPages.css" rel="stylesheet" type="text/css">
     <!--coustom css-->
     <link href="/static/css/style.css" rel="stylesheet" type="text/css"/>
+
     <!--fonts-->
     <link href='http://fonts.googleapis.com/css?family=Coda:400,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Jockey+One' rel='stylesheet' type='text/css'>
@@ -38,7 +39,16 @@
             });
         });
     </script>
-
+    <script src="/static/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script>
+		(function($){
+			$(window).load(function(){
+				$("body").mCustomScrollbar({
+					theme:"minimal"
+				});
+			});
+		})(jQuery);
+	</script>
     <!--fonts-->
 </head>
 <body>

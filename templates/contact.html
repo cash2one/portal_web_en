@@ -1,14 +1,7 @@
-<div class="g-wrap">
-<script src="/static/js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script type='text/javascript'>
-    (function($){
-        $(window).load(function(){
-            $(".g-wrap").mCustomScrollbar();
-        });
-    })(jQuery);
-</script>
+
 {% extends 'base.html' %}
 {% block home1 %}
+
     <div class="" id="home1">
         <div class="banamer-img">
             <img class="img" src="../static/images/3.jpg"/>
@@ -66,5 +59,16 @@
 
         </div>
     </div>
+    <script src="/static/js/jquery.mousewheel.js"></script>
+    <script type='text/javascript'>
+        $(document).on("mousewheel",function(e){
+            var scrollTop = $(document).scrollTop() + e.deltaY;
+            console.log($(document).scrollTop());
+
+          {#  $('body,html').animate({
+                scrollTop:scrollTop
+            },1000);
+        })#}
+
+</script>
 {% endblock %}
-</div>
