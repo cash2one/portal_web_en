@@ -20,6 +20,7 @@
     <link href="/static/css/jPages.css" rel="stylesheet" type="text/css">
     <!--coustom css-->
     <link href="/static/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css"/>
 
     <!--fonts-->
     <link href='http://fonts.googleapis.com/css?family=Coda:400,800' rel='stylesheet' type='text/css'>
@@ -70,7 +71,11 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right margin-top cl-effect-2">
                     <li><a href="/"><span data-hover="首页">首页</span></a></li>
-                    <li class="field1"><a href="#" id="field" class="nav-tit"><span data-hover="智慧业务">智慧业务</span></a></li>
+                    <li class="field1">
+                        <a href="#" id="field" class="nav-tit">
+                            <span data-hover="智慧业务">智慧业务</span>
+                        </a>
+                    </li>
                     <li><a href="#" id="field1" class="nav-tit"><span data-hover="解决方案">解决方案</span></a></li>
                     <li><a href="/xwdt"><span data-hover="合作伙伴">合作伙伴</span></a></li>
                     <li><a href="/news"><span data-hover="新闻动态">新闻动态</span></a></li>
@@ -99,31 +104,49 @@
             <script type="text/javascript">
 
                 var flag = true;
-                $("#field").click(function () {
+                $("#field").hover(function () {
                     if (flag) {
                         $(".field-wrap2").hide();
-                        $(".field-wrap1").slideToggle();
+                        $(".field-wrap1").slideDown();
                         flag = false;
                         flag1 = true;
                     } else {
-                        $(".field-wrap1").slideUp();
+                       {#$(".field-wrap1").slideUp();#}
                         flag = true;
                     }
                     return false;
                 });
 
                 var flag1 = true;
-                $("#field1").click(function () {
+                $("#field1").hover(function () {
                     if (flag1) {
                         $(".field-wrap1").hide();
                         $(".field-wrap2").slideDown();
                         flag1 = false;
                         flag = true;
                     } else {
-                        $(".field-wrap2").slideUp();
+                        {#$(".field-wrap2").slideUp();#}
                         flag1 = true;
                     }
                     return false;
+                })
+
+                 var flag2 = true;
+                 $(".field-wrap2").hover(function () {
+                     if(flag2){
+                          $(".field-wrap2").show();
+                     }else{
+                         $(".field-wrap2").hide();
+                     }
+                })
+
+                 var flag3 = true;
+                 $(".field-wrap1").hover(function () {
+                     if(flag3){
+                          $(".field-wrap1").show();
+                     }else{
+                         $(".field-wrap1").hide();
+                     }
                 })
             </script>
         </div>
