@@ -56,6 +56,7 @@ class CDomain(models.Model):
     pubtime = models.DateField(verbose_name=u'发布时间', blank=True, null=True, )
     pic = models.ImageField(upload_to='domain', storage=ImageStorage(), blank=True, verbose_name=u'图片')
     content = UEditorField(u"文档内容", width=840, height=460, imagePath="domain/", toolbars='full', )
+    pubflag = models.SmallIntegerField(blank=True, null=True, choices=((1, '发布'), (2, '草稿')), default=2, verbose_name=u'发布开关')
 
     class Meta:
         db_table = "t_domain"
@@ -73,6 +74,7 @@ class CSolution(models.Model):
     pubtime = models.DateField(verbose_name=u'发布时间')
     pic = models.ImageField(upload_to='solution', storage=ImageStorage(), blank=True, verbose_name=u'图片')
     content = UEditorField(u"文档内容", width=840, height=460, imagePath="solution/", toolbars='full',)
+    pubflag = models.SmallIntegerField(blank=True, null=True, choices=((1, '发布'), (2, '草稿')), default=2, verbose_name=u'发布开关')
 
     class Meta:
         db_table = "t_solution"

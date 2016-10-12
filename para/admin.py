@@ -53,16 +53,18 @@ admin.site.register(CTypes, CTypesAdmin)
 
 
 class CDomainAdmin(admin.ModelAdmin):
-    list_display = ['title', 'types', 'summary', 'pic', 'pubtime']
+    list_display = ['title', 'types', 'summary', 'pic', 'pubtime', 'pubflag']
     style_fields = {"content": 'ueditor'}
+    list_editable = ['pubflag']
 
 
 admin.site.register(CDomain, CDomainAdmin)
 
 
 class CSolutionAdmin(admin.ModelAdmin):
-    list_display = ['title', 'types', 'summary', 'pic', 'pubtime']
+    list_display = ['title', 'types', 'summary', 'pic', 'pubtime', 'pubflag']
     style_fields = {"content": 'ueditor'}
+    list_editable = ['pubflag']
 
 
 admin.site.register(CSolution, CSolutionAdmin)

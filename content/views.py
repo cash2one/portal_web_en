@@ -7,7 +7,7 @@ from para.models import CNews, CDomain, CSolution
 def get_base_info(request):
     ctx = {}
     # domain
-    domains = CDomain.objects.all()
+    domains = CDomain.objects.filter(pubflag=1)
     listdomainmenu = []
     for d in domains:
         if d.types.names not in listdomainmenu:
@@ -23,7 +23,7 @@ def get_base_info(request):
     ctx['domainmenus'] = listdomainret
 
     # solution
-    solutions = CSolution.objects.all()
+    solutions = CSolution.objects.filter(pubflag=1)
     listsolutionmenu = []
     for s in solutions:
         if s.types.names not in listsolutionmenu:

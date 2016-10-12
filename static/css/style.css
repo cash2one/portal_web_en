@@ -75,11 +75,10 @@ ul.nav.navbar-nav.navbar-right.margin-top li{
 	margin:0px 10px 0px 0px;
 	padding:0px 0px 0px 0px;
 }
-.header .cl-effect-2 a {
+.cl-effect-2 a {
 	-webkit-perspective: 1000px;
 	-moz-perspective: 1000px;
 	perspective: 1000px;
-	
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
 	color: #00BFF3;
@@ -94,9 +93,6 @@ ul.nav.navbar-nav.navbar-right.margin-top li{
 span.caret:hover {
 	color: #00BFF3;
 }
-.cl-effect-2 a:active span{
-	color: #739c23!important;
-}
 .cl-effect-2 a span {
 	position: relative;
 	display: inline-block;
@@ -104,7 +100,6 @@ span.caret:hover {
 	font-size: 18px;
 	font-family: "幼圆";
 	font-weight: 600;
-	color: #739c23;
 	background: none !important;
 	-webkit-transition: -webkit-transform 0.3s;
 	-ms-transition: -webkit-transform 0.3s;
@@ -117,7 +112,7 @@ span.caret:hover {
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	
+	color: #739c23;
 }
 .container .certificate{
 	text-align: center;
@@ -184,7 +179,7 @@ span.caret:hover {
 	height: 100%;
 	font-size: 18px;
 	font-weight: 600;
-	color: #739c23 ; 
+	color: #94c13d !important;
 	padding: 0;
 	z-index:999;
 	background: none;
@@ -202,9 +197,6 @@ span.caret:hover {
 	-ms-transform-origin: 50% 0;
 	-moz-transform-origin: 50% 0;
 	transform-origin: 50% 0;
-} 
-.cl-effect-2 a span::before:active {
-	color: #739c23 ; 
 }
 .cl-effect-2 a:hover span,
 .cl-effect-2 a:focus span {
@@ -213,7 +205,7 @@ span.caret:hover {
 	-o-transform: rotateX(90deg) translateY(-22px);
 	-ms-transform: rotateX(90deg) translateY(-22px);
 	transform: rotateX(90deg) translateY(-22px);
-	color: #94c13d;
+	color: #fff;
 }
 
 .csstransforms3d .cl-effect-2 a:hover span::before,
@@ -256,20 +248,20 @@ span.glyphicon.glyphicon-search.edit {
 	list-style: none;
 }
 #slider1 {
-  width:300%; 
+  width:300%;
   height:100%;
   height: 288px;
   text-align:center;
   color:#fff;
   margin-left:0;
-  -webkit-animation:slide1 5s ease-out infinite; 
+  -webkit-animation:slide1 5s ease-out infinite;
 }
 .page-seperator .text{
 	position: relative;
 	text-align: center;
 	overflow:hidden;
 	height: 288px;
-	
+
 }
 .page-seperator ul{
 	position: absolute;
@@ -309,7 +301,7 @@ span.glyphicon.glyphicon-search.edit {
 	animation:circle_2 2s  ;
 	-moz-animation:circle_2 2s;Firefox:
 	-webkit-animation:circle_2 2s;Safari and Chrome:
-	-o-animation:circle_2 2s ;Opera: 
+	-o-animation:circle_2 2s ;Opera:
 	z-index:1;
 }
 
@@ -322,7 +314,7 @@ span.glyphicon.glyphicon-search.edit {
   	0%{-webkit-transform:translate(0,-300px);transform: translate(0,-300); }
   	100% { -webkit-transform: translate(0,0); transform: translate(0,0);}
 }
-	
+
 /*--our-features--*/
 .bgi h3 {
 	color: #fff;
@@ -353,8 +345,8 @@ span.glyphicon.glyphicon-search.edit {
 	margin: 0 auto;
 	font-size: 40px;
 	position: relative;
-	
-} 
+
+}
 .page-seperator .text .font{
 	font-family: "zaozi";
 }
@@ -368,8 +360,8 @@ span.glyphicon.glyphicon-search.edit {
 	font-family: "changcheng";
 	font-size: 40px;
 	position: relative;
-	
-} 
+
+}
 .page-seperator .text .banaer-text2{
 	font-size: 40px;
 	float: right;
@@ -403,7 +395,7 @@ span.glyphicon.glyphicon-search.edit {
 	left: 20px;
 	top: 20px;
 }
- 
+
 button.btn.btn-warning.but1 {
 	padding: 10px 22px;
 	outline: none;
@@ -609,7 +601,7 @@ span.gal-icn {
 	display:inline-block;
 	vertical-align:top;
 	font-weight: 300;
-	
+
 	width: 100%;
 }
 .b-link-stripe .b-wrapper{
@@ -680,7 +672,7 @@ span.gal-icn {
 	width: 40%;
 	margin: 0 auto;
 	text-align: left;
-	position: relative;	
+	position: relative;
 	margin-bottom: 46px;
 }
 .test-box span{
@@ -1133,7 +1125,7 @@ li.grid_2 h4,h5,h6,h1,h2,h3 {
 /*--news--*/
 .news,.contact{
 	padding:3em 0;
-	
+
 }
 .news .tit,.contact .tit{
 	height: 60px;
@@ -1210,7 +1202,7 @@ li.grid_2 h4,h5,h6,h1,h2,h3 {
 	margin: 0 auto;
 	margin-bottom: 40px;
 	width: 80%;
-	
+
 }
 .holder{
 	text-align: center;
@@ -1222,19 +1214,11 @@ li.grid_2 h4,h5,h6,h1,h2,h3 {
 	padding-top: 22px;
 	color: #fff;
 }
-.display-table{
-	/* display: table; */
-}
 .field-wrap .field-item{
-	width: 19.5%;
-	display: inline-block;
-	*display:inline;
-	*zoom:1;
+	width: 20%;
+	float: left;
 	padding: 0 15px;
-	box-sizing:border-box;
-	vertical-align:top;
 }
-
 .field-wrap .field-item h2{
 	border-bottom: 2px solid #7d7d7d;
 	height: 40px;
@@ -1420,6 +1404,13 @@ li.col-md-3.gal-alt {
 	font-size: 20px;
 	margin-right: 10px;
 }
+
+.glyphicon.glyphicon-question-sign{
+	color: #739c23;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
 .btn-info1{
 	background-color: #94c13d;
 	color: #fff;
