@@ -20,7 +20,7 @@
     <link href="/static/css/jPages.css" rel="stylesheet" type="text/css">
     <!--coustom css-->
     <link href="/static/css/style.css" rel="stylesheet" type="text/css"/>
-    {#<link href="/static/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css"/>#}
+    <link href="/static/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css"/>
 
     <!--fonts-->
     <link href='http://fonts.googleapis.com/css?family=Coda:400,800' rel='stylesheet' type='text/css'>
@@ -41,7 +41,11 @@
         });
     </script>
     <script src="/static/js/jquery.mCustomScrollbar.concat.min.js"></script>
-    <script src="/static/js/script.js"></script>
+    <script >
+         $(function () {
+                $('.bottom-gallery a').Chocolat();
+            });
+    </script>
     <!--fonts-->
 </head>
 <body>
@@ -83,7 +87,7 @@
     </nav>
     {% block field %}
         <div class="field-wrap field-wrap1 list-s01" style="display: none" >
-            <div class="container">
+            <div class="container clear display-table">
                 {% for s in solutionmenus %}
                     <div class="field-item">
                         <h2><span></span>{{ s.menumain }}</h2>
@@ -96,8 +100,8 @@
                 {% endfor %}
             </div>
         </div>
-        <div class="field-wrap field-wrap2 list-s01" style="display: none">
-            <div class="container">
+        <div class="field-wrap field-wrap2 list-s02" style="display: none"  >
+            <div class="container clear display-table">
                 {% for d in domainmenus %}
                     <div class="field-item">
                         <h2><span></span>{{ d.menumain }}</h2>
@@ -108,39 +112,35 @@
                         </ul>
                     </div>
                 {% endfor %}
+
             </div>
         </div>
-          <script src="../static/js/script.js"></script>
-           <script type="text/javascript">
-                $("#field").mouseenter(function () {
-                        $(".field-wrap2").hide();
-                        $(".field-wrap1").stop(true,true).slideDown();
-                });
-
-                $("#field").mouseleave(function () {
-                    $(".field-wrap1").delay(300).slideUp();
-                });
-                 $(".field-wrap1").mouseenter(function () {
-                    $(this).stop(true);
-                 });
-                 $(".field-wrap1").mouseleave(function(){
+            <script src="../static/js/script.js"></script>
+            <script type="text/javascript">
+                function showList(){
+                    var timer = null;
+                    var aNav = $(".nav .nav-tit");
+                    var listNav = $('.field-wrap');
+                    aNav.each(function(index,elements){
+                        $(elements).mouseenter(function(){
+                            $(".list-s0"+ (index+1) +"").stop(true,true).slideDown();
+                            $(".list-s0"+ (index+1) +"").siblings(".field-wrap").stop(true,true).slideUp();
+                        });
+                        $(elements).mouseleave(function(){
+                            listNav.eq(index).delay(700).slideUp();
+                        })
+                        listNav.eq(index).mouseenter(function(){
+                            $(this).stop(true);
+                        });
+                        listNav.eq(index).mouseleave(function(){
                             $(this).slideUp();
-                  })
+                        })
+                    });
 
-                $("#field1").mouseenter(function () {
-                        $(".field-wrap1").hide();
-                        $(".field-wrap2").stop(true,true).slideDown();
-                });
-
-                $("#field1").mouseleave(function () {
-                    $(".field-wrap2").delay(300).slideUp();
-                });
-                 $(".field-wrap2").mouseenter(function () {
-                    $(this).stop(true);
-                 });
-                  $(".field-wrap2").mouseleave(function(){
-                            $(this).slideUp();
-                  })
+                }
+                $(function(){
+                   showList();
+                })
             </script>
     {% endblock %}
 

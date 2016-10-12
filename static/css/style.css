@@ -1223,14 +1223,18 @@ li.grid_2 h4,h5,h6,h1,h2,h3 {
 	color: #fff;
 }
 .display-table{
-	display: table;
+	/* display: table; */
 }
 .field-wrap .field-item{
-	width: 20%;
-	float: left;
+	width: 19.5%;
+	display: inline-block;
+	*display:inline;
+	*zoom:1;
 	padding: 0 15px;
-	display: table-cell;
+	box-sizing:border-box;
+	vertical-align:top;
 }
+
 .field-wrap .field-item h2{
 	border-bottom: 2px solid #7d7d7d;
 	height: 40px;
