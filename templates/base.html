@@ -20,11 +20,11 @@
     <link href="/static/css/jPages.css" rel="stylesheet" type="text/css">
     <!--coustom css-->
     <link href="/static/css/style.css" rel="stylesheet" type="text/css"/>
-    {#<link href="/static/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css"/>#}
+    <link href="/static/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css"/>
 
     <!--fonts-->
-{#    <link href='http://fonts.googleapis.com/css?family=Coda:400,800' rel='stylesheet' type='text/css'>#}
-{#    <link href='http://fonts.googleapis.com/css?family=Jockey+One' rel='stylesheet' type='text/css'>#}
+    {#    <link href='http://fonts.googleapis.com/css?family=Coda:400,800' rel='stylesheet' type='text/css'>#}
+    {#    <link href='http://fonts.googleapis.com/css?family=Jockey+One' rel='stylesheet' type='text/css'>#}
     <!--script-->
     <script src="/static/js/jquery-1.8.3.min.js"></script>
     <script src="/static/js/modernizr.custom.js"></script>
@@ -43,7 +43,7 @@
     <script src="/static/js/jquery.mCustomScrollbar.concat.min.js"></script>
     <!--fonts-->
 </head>
-<body>
+<body class="full-page">
 <div class="header" id="home">
     <nav class="navbar navbar-default">
         <div class="container">
@@ -62,14 +62,14 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right margin-top cl-effect-2">
                     <li><a href="/"><span data-hover="首页">首页</span></a></li>
-                    <li class="field1 item" >
+                    <li class="field1 item">
                         <a href="#" id="field" class="nav-tit">
                             <span data-hover="智慧业务">智慧业务</span>
                         </a>
                     </li>
                     <li class="field1 item">
                         <a href="#" id="field1" class="nav-tit">
-                        <span data-hover="解决方案">解决方案</span></a>
+                            <span data-hover="解决方案">解决方案</span></a>
                     </li>
                     <li><a href="/xwdt"><span data-hover="合作伙伴">合作伙伴</span></a></li>
                     <li><a href="/news"><span data-hover="新闻动态">新闻动态</span></a></li>
@@ -81,14 +81,15 @@
         </div><!-- /.container-fluid -->
     </nav>
     {% block field %}
-        <div class="field-wrap field-wrap1 list-s01" style="display: none" >
+        <div class="field-wrap field-wrap1 list-s01" style="display: none">
             <div class="container">
                 {% for s in solutionmenus %}
                     <div class="field-item">
                         <h2><span></span>{{ s.menumain }}</h2>
                         <ul>
                             {% for m in s.menus %}
-                                <li><a href="/solutiondetail/{{ m.pk }}" target="_blank"><span></span>{{ m.title }}</a></li>
+                                <li><a href="/solutiondetail/{{ m.pk }}" target="_blank"><span></span>{{ m.title }}</a>
+                                </li>
                             {% endfor %}
                         </ul>
                     </div>
@@ -102,44 +103,45 @@
                         <h2><span></span>{{ d.menumain }}</h2>
                         <ul>
                             {% for m in d.menus %}
-                                <li><a href="/domaindetail/{{ m.pk }}" target="_blank"><span></span>{{ m.title }}</a></li>
+                                <li><a href="/domaindetail/{{ m.pk }}" target="_blank"><span></span>{{ m.title }}</a>
+                                </li>
                             {% endfor %}
                         </ul>
                     </div>
                 {% endfor %}
             </div>
         </div>
-           <script type="text/javascript">
-                $("#field").mouseenter(function () {
-                        $(".field-wrap2").hide();
-                        $(".field-wrap1").stop(true,true).slideDown();
-                });
+        <script type="text/javascript">
+            $("#field").mouseenter(function () {
+                $(".field-wrap2").hide();
+                $(".field-wrap1").stop(true, true).slideDown();
+            });
 
-                $("#field").mouseleave(function () {
-                    $(".field-wrap1").delay(300).slideUp();
-                });
-                 $(".field-wrap1").mouseenter(function () {
-                    $(this).stop(true);
-                 });
-                 $(".field-wrap1").mouseleave(function(){
-                            $(this).slideUp();
-                  })
+            $("#field").mouseleave(function () {
+                $(".field-wrap1").delay(300).slideUp();
+            });
+            $(".field-wrap1").mouseenter(function () {
+                $(this).stop(true);
+            });
+            $(".field-wrap1").mouseleave(function () {
+                $(this).slideUp();
+            })
 
-                $("#field1").mouseenter(function () {
-                        $(".field-wrap1").hide();
-                        $(".field-wrap2").stop(true,true).slideDown();
-                });
+            $("#field1").mouseenter(function () {
+                $(".field-wrap1").hide();
+                $(".field-wrap2").stop(true, true).slideDown();
+            });
 
-                $("#field1").mouseleave(function () {
-                    $(".field-wrap2").delay(300).slideUp();
-                });
-                 $(".field-wrap2").mouseenter(function () {
-                    $(this).stop(true);
-                 });
-                  $(".field-wrap2").mouseleave(function(){
-                            $(this).slideUp();
-                  })
-            </script>
+            $("#field1").mouseleave(function () {
+                $(".field-wrap2").delay(300).slideUp();
+            });
+            $(".field-wrap2").mouseenter(function () {
+                $(this).stop(true);
+            });
+            $(".field-wrap2").mouseleave(function () {
+                $(this).slideUp();
+            })
+        </script>
     {% endblock %}
 
     {% block header_banner %}
@@ -180,5 +182,17 @@
 </div>
 <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover"
                                                                          style="opacity: 1;"> </span></a>
+<script>
+    (function ($) {
+        $(window).load(function () {
+
+            $("body").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+        });
+    })(jQuery);
+</script>
+
 </body>
 </html>
