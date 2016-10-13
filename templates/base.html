@@ -40,7 +40,21 @@
             });
         });
     </script>
-    <script src="/static/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    {% block scrollscript_prev %}
+    {% endblock %}
+    <script>
+        // 禁用右键菜单、复制、选择
+        $(document).bind("contextmenu copy selectstart", function () {
+            return false;
+        });
+
+        // 禁用Ctrl+C和Ctrl+V（所有浏览器均支持）
+        $(document).keydown(function (e) {
+            if (e.ctrlKey && (e.keyCode == 65 || e.keyCode == 67)) {
+                return false;
+            }
+        });
+    </script>
     <!--fonts-->
 </head>
 <body class="full-page">
@@ -69,7 +83,7 @@
                     </li>
                     <li class="field1 item">
                         <a href="#" id="field1" class="nav-tit">
-                            <span data-hover="解决方案">解决方案</span></a>
+                            <span data-hover="产品与案例">产品与案例</span></a>
                     </li>
                     <li><a href="/xwdt"><span data-hover="合作伙伴">合作伙伴</span></a></li>
                     <li><a href="/news"><span data-hover="新闻动态">新闻动态</span></a></li>
@@ -180,19 +194,12 @@
         </div>
     </div>
 </div>
+{% block totop %}
 <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover"
                                                                          style="opacity: 1;"> </span></a>
-<script>
-    (function ($) {
-        $(window).load(function () {
-
-            $("body").mCustomScrollbar({
-                theme: "minimal"
-            });
-
-        });
-    })(jQuery);
-</script>
+{% endblock %}
+{% block scrollscript_post %}
+{% endblock %}
 
 </body>
 </html>

@@ -56,12 +56,15 @@ class CDomain(models.Model):
     pubtime = models.DateField(verbose_name=u'发布时间', blank=True, null=True, )
     pic = models.ImageField(upload_to='domain', storage=ImageStorage(), blank=True, verbose_name=u'图片')
     content = UEditorField(u"文档内容", width=840, height=460, imagePath="domain/", toolbars='full', )
-    pubflag = models.SmallIntegerField(blank=True, null=True, choices=((1, '发布'), (2, '草稿')), default=2, verbose_name=u'发布开关')
+    pubflag = models.SmallIntegerField(blank=True, null=True, choices=((1, '发布'), (2, '草稿')), default=2,
+                                       verbose_name=u'发布开关')
+    homeflag = models.SmallIntegerField(blank=True, null=True, choices=((1, '是'), (2, '否')), default=2,
+                                        verbose_name=u'是否推送到首页')
 
     class Meta:
         db_table = "t_domain"
-        verbose_name_plural = u"解决方案"
-        verbose_name = u"解决方案"
+        verbose_name_plural = u"产品与案例"
+        verbose_name = u"产品与案例"
 
     def __unicode__(self):
         return self.title
@@ -73,8 +76,9 @@ class CSolution(models.Model):
     summary = models.CharField(max_length=255, verbose_name=u'摘要')
     pubtime = models.DateField(verbose_name=u'发布时间')
     pic = models.ImageField(upload_to='solution', storage=ImageStorage(), blank=True, verbose_name=u'图片')
-    content = UEditorField(u"文档内容", width=840, height=460, imagePath="solution/", toolbars='full',)
-    pubflag = models.SmallIntegerField(blank=True, null=True, choices=((1, '发布'), (2, '草稿')), default=2, verbose_name=u'发布开关')
+    content = UEditorField(u"文档内容", width=840, height=460, imagePath="solution/", toolbars='full', )
+    pubflag = models.SmallIntegerField(blank=True, null=True, choices=((1, '发布'), (2, '草稿')), default=2,
+                                       verbose_name=u'发布开关')
 
     class Meta:
         db_table = "t_solution"

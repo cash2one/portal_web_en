@@ -47,6 +47,10 @@ def mainpage(request):
     news = CNews.objects.all()
     ctx['news'] = news
 
+    # solutions
+    solutions = CDomain.objects.filter(homeflag=1)[0:6]
+    ctx['solutions'] = solutions
+
     return render(request, 'index.html', ctx)
 
 
@@ -63,7 +67,7 @@ def contact(request):
 def news(request):
     ctx = get_base_info(request)
     # news
-    news = CNews.objects.all()
+    news = CNews.objects.all().order_by('-pubtime')
     ctx['news'] = news
     return render(request, 'news.html', ctx)
 
@@ -72,6 +76,7 @@ def domaindetail(request, domainid):
     ctx = get_base_info(request)
     newsobj = CDomain.objects.get(pk=domainid)
     ctx['newsobj'] = newsobj
+    ctx['newstime'] = False
     return render(request, 'news-detail.html', ctx)
 
 
@@ -79,6 +84,7 @@ def solutiondetail(request, solutionid):
     ctx = get_base_info(request)
     newsobj = CSolution.objects.get(pk=solutionid)
     ctx['newsobj'] = newsobj
+    ctx['newstime'] = False
     return render(request, 'news-detail.html', ctx)
 
 
@@ -86,6 +92,7 @@ def newsdetail(request, newsid):
     ctx = get_base_info(request)
     newsobj = CNews.objects.get(pk=newsid)
     ctx['newsobj'] = newsobj
+    ctx['newstime'] = True
     return render(request, 'news-detail.html', ctx)
 
 

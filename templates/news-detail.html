@@ -9,7 +9,9 @@
 
             <div class="news-detail">
                 <h2>{{ newsobj.title }}</h2>
-                <span>{{ newsobj.pubtime }}</span>
+                {% if newstime %}
+                    <span>{{ newsobj.pubtime }}</span>
+                {% endif %}
                 <p>
                     {% autoescape off %}
                         {{ newsobj.content }}
