@@ -2,6 +2,9 @@ h4, h5, h6,
 h1, h2, h3 {
     margin: 0;
 }
+ html,body{
+	height: 100%;
+} 
 
 ul, ol {
     margin: 0;
@@ -84,6 +87,9 @@ body {
     margin: 0;
     border-radius: 0;
     z-index: 2;
+    position: fixed;
+    right: 0;
+    left: 0;
 }
 
 .navbar-header a.navbar-brand {
@@ -304,6 +310,8 @@ span.glyphicon.glyphicon-search.edit {
     min-height: 700px;
     padding-top: 10em !important;
     text-align: center;
+    background-attachment: fixed;
+    margin-top: 80px;
 }
 
 .news-wrap li {
@@ -1426,7 +1434,7 @@ li.grid_2 h4, h5, h6, h1, h2, h3 {
 
 .news-list .news-item span {
     overflow: hidden;
-    color: #999999;
+    color: #999999;d
 }
 
 .news-list .news-item p {
