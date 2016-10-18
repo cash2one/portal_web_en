@@ -1,68 +1,76 @@
 {% extends 'base.html' %}
-{% block home1 %}
 
+{% block home1 %}
+    <script src="/static/js/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="/static/js/ckplayer/ckplayer.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/static/js/video_play.js"></script>
     <div class="" id="home1">
-        <div class="banamer-img">
-{#            <img src="../static/images/banner02.jpg"/>#}
-            <video autoplay loop class="video" width="100%" height="100%">
-            <source src="/static/videos/iot.mp4"/>
-        </video>
+        {#        <div class="banamer-img">#}
+        {#            <img src="../static/images/banner02.jpg"/>#}
+        {#            <video autoplay loop class="video" width="100%" height="100%">#}
+        {#            <source src="/static/videos/iot.mp4"/>#}
+        {#        </video>#}
+        <div id="a1" style="width: 100%; height: 800px"></div>
+    </div>
+    <script type="text/javascript">
+        autoPlay(1, '/static/videos/iot1.mp4', 0, 10, '');
+    </script>
+    <div class="contact">
+        <div class="tit">
+            <h3><span>联系我们</span></h3>
         </div>
-        <div class="contact">
-            <div class="tit">
-                <h3><span>联系我们</span></h3>
-            </div>
-            <div class="contact_page">
-                <div class="container w1000">
-                    <div class="col-md-3 fl cnt-pg">
-                        <h4>慧禹（中国）信息科技有限公司</h4>
-                        <ul>
-                            <li>公司总部：</li>
-                            <li>上海市普陀区科技企业总部大厦3楼</li>
-                            <li>研发中心：</li>
-                            <li>湖北省武汉市光谷软件园A8栋</li>
-                            {#                            <li><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>027-87519608</li>#}
-                        </ul>
-                    </div>
-                    <div class="col-md-8 fr cnt-pg">
-                        <h4>请联系我们</h4>
+        <div class="contact_page">
+            <div class="container w1000">
+                <div class="col-md-3 fl cnt-pg">
+                    <h4>慧禹（中国）信息科技有限公司</h4>
+                    <ul>
+                        <li>公司总部：</li>
+                        <li>上海市普陀区科技企业总部大厦3楼</li>
+                        <li><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span><a href="mailto:service@whhuiyu.com">service@whhuiyu.com</a></li>
+                        <li>研发中心：</li>
+                        <li>中国光谷 武汉东湖高新区关山大道1号光谷软件园A8栋</li>
+                        <li><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span>027-87519608</li>
+                    </ul>
+                </div>
+                <div class="col-md-8 fr cnt-pg">
+                    <h4>请联系我们</h4>
                         <textarea value="Message:" onfocus="this.value = '';"
                                   onblur="if (this.value == '') {this.value = '请输入.....';}">请输入......</textarea>
-                        <form>
-                            <input class="name" type="text" name="name" value="您的姓名" onfocus="this.value = '';"
-                                   onblur="if (this.value == '') {this.value = '您的姓名';}"><br>
-                            <br>
-                            <input class="nuber" type="text" name="Phone number" value="手机号码" onfocus="this.value = '';"
-                                   onblur="if (this.value == '') {this.value = '手机号码';}"><br>
-                            <br>
-                            <input class="mail2" type="text" name="email" value="邮箱地址" onfocus="this.value = '';"
-                                   onblur="if (this.value == '') {this.value = '邮箱地址';}"><br>
-                            <br>
-                            <button type="submit" class="btn btn-info1 mrgn-can">提交</button>
-                        </form>
-                    </div>
+                    <form>
+                        <input class="name" type="text" name="name" value="您的姓名" onfocus="this.value = '';"
+                               onblur="if (this.value == '') {this.value = '您的姓名';}"><br>
+                        <br>
+                        <input class="nuber" type="text" name="Phone number" value="手机号码" onfocus="this.value = '';"
+                               onblur="if (this.value == '') {this.value = '手机号码';}"><br>
+                        <br>
+                        <input class="mail2" type="text" name="email" value="邮箱地址" onfocus="this.value = '';"
+                               onblur="if (this.value == '') {this.value = '邮箱地址';}"><br>
+                        <br>
+                        <button type="submit" class="btn btn-info1 mrgn-can">提交</button>
+                    </form>
                 </div>
             </div>
         </div>
-        <div class="map">
-            <script type="text/javascript"
-                    src="http://api.map.baidu.com/api?ak=4xXGMMnrGoESPPO7zgNCSpi9L2EPwikB&v=2.0&services=false"></script>
-            <div id="container"></div>
+    </div>
+    <div class="map">
+        <script type="text/javascript"
+                src="http://api.map.baidu.com/api?ak=4xXGMMnrGoESPPO7zgNCSpi9L2EPwikB&v=2.0&services=false"></script>
+        <div id="container"></div>
 
-            <script>
-                var map = new BMap.Map("container");
-                map.addControl(new BMap.NavigationControl());
-                var myGeo = new BMap.Geocoder();
-                myGeo.getPoint("上海市普陀区科技企业总部大厦3楼", function (point) {
-                    if (point) {
-                        map.centerAndZoom(point, 16);
-                        var maker = new BMap.Marker(point);
-                        map.addOverlay(maker);
-                        map.enableScrollWheelZoom();
-                        map.openInfoWindow(new BMap.InfoWindow("<h4 style='margin:0;font:bold 14px Tahoma;color:#222222;'><a href='http://a1929784.atobo.com.cn' target='_blank'>慧禹（中国）信息科技有限公司</a></h4><p style='color:#111111;font-size:12.5px;'>地址：上海市普陀区科技企业总部大厦3楼</p><p style='color:#111111;font-size:12.5px;'></p>", {offset: new BMap.Size(0, -17)}), point);
-                    }
-                }, "上海");
-            </script>
+        <script>
+            var map = new BMap.Map("container");
+            map.addControl(new BMap.NavigationControl());
+            var myGeo = new BMap.Geocoder();
+            myGeo.getPoint("上海市普陀区科技企业总部大厦3楼", function (point) {
+                if (point) {
+                    map.centerAndZoom(point, 16);
+                    var maker = new BMap.Marker(point);
+                    map.addOverlay(maker);
+                    map.enableScrollWheelZoom();
+                    map.openInfoWindow(new BMap.InfoWindow("<h4 style='margin:0;font:bold 14px Tahoma;color:#222222;'><a href='http://a1929784.atobo.com.cn' target='_blank'>慧禹（中国）信息科技有限公司</a></h4><p style='color:#111111;font-size:12.5px;'>地址：上海市普陀区科技企业总部大厦3楼</p><p style='color:#111111;font-size:12.5px;'></p>", {offset: new BMap.Size(0, -17)}), point);
+                }
+            }, "上海");
+        </script>
 
-        </div>
+    </div>
 {% endblock %}

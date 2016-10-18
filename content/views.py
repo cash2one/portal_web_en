@@ -1,7 +1,19 @@
 # coding=utf-8
 from django.shortcuts import render
+from operLog.models import COperLog
 
 from para.models import CNews, CDomain, CSolution
+
+
+def getIPFromDJangoRequest(request):
+    if 'HTTP_X_FORWARDED_FOR' in request.META:
+        return request.META['HTTP_X_FORWARDED_FOR']
+    else:
+        return request.META['REMOTE_ADDR']
+
+
+def writeoperlog(request, oper, desc):
+    COperLog(oper=oper, ipaddr=getIPFromDJangoRequest(request), desc=desc).save()
 
 
 def get_base_info(request):
@@ -37,6 +49,8 @@ def get_base_info(request):
                 listdm.append(s)
         listsolutionret.append({'menumain': l, 'menus': listdm})
     ctx['solutionmenus'] = listsolutionret
+
+    ctx['viewcount'] = COperLog.objects.count() + 7218
     return ctx
 
 
@@ -50,17 +64,21 @@ def mainpage(request):
     # solutions
     solutions = CDomain.objects.filter(homeflag=1)[0:6]
     ctx['solutions'] = solutions
-
+    writeoperlog(request, u'首页', u'')
     return render(request, 'index.html', ctx)
 
 
 def xwdt(request):
     ctx = get_base_info(request)
+
+    writeoperlog(request, u'合作伙伴', u'')
     return render(request, 'gallery.html', ctx)
 
 
 def contact(request):
     ctx = get_base_info(request)
+
+    writeoperlog(request, u'联系我们', u'')
     return render(request, 'contact.html', ctx)
 
 
@@ -69,6 +87,8 @@ def news(request):
     # news
     news = CNews.objects.all().order_by('-pubtime')
     ctx['news'] = news
+
+    writeoperlog(request, u'新闻', u'')
     return render(request, 'news.html', ctx)
 
 
@@ -77,6 +97,8 @@ def domaindetail(request, domainid):
     newsobj = CDomain.objects.get(pk=domainid)
     ctx['newsobj'] = newsobj
     ctx['newstime'] = False
+
+    writeoperlog(request, newsobj.types.names, newsobj.title)
     return render(request, 'news-detail.html', ctx)
 
 
@@ -85,6 +107,8 @@ def solutiondetail(request, solutionid):
     newsobj = CSolution.objects.get(pk=solutionid)
     ctx['newsobj'] = newsobj
     ctx['newstime'] = False
+
+    writeoperlog(request, newsobj.types.names, newsobj.title)
     return render(request, 'news-detail.html', ctx)
 
 
@@ -93,6 +117,8 @@ def newsdetail(request, newsid):
     newsobj = CNews.objects.get(pk=newsid)
     ctx['newsobj'] = newsobj
     ctx['newstime'] = True
+
+    writeoperlog(request, u'新闻', newsobj.title)
     return render(request, 'news-detail.html', ctx)
 
 

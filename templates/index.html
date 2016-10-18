@@ -1,11 +1,13 @@
 {% extends 'base.html' %}
-
+{% block scrollscript_prev %}
+    <script src="/static/js/jquery.mCustomScrollbar.concat.min.js"></script>
+{% endblock %}
 {% block header_banner %}
     <div class="header-banner">
         <!-- Top Navigation -->
         <div class="container page-seperator">
             <section class="color bgi">
-                <div id="slideBox" class="slideBox">
+                <div id="slideBox" class=" slideBox">
                     <div class="text bd">
                         <ul id="" class="clear">
                             <li>
@@ -22,13 +24,12 @@
                 </div>
             </section>
             <script type="text/javascript">
-               {# jQuery(".slideBox").slide({mainCell:".bd ul",effect:"leftLoop",autoPlay:true});#}
                 jQuery(".slideBox").slide({
                     mainCell: ".bd ul",
                     autoPlay: true,
                     effect: "leftLoop",
-                    delayTime: 2000,
-                    interTime: 7000
+                    delayTime: 3000,
+                    interTime: 6000
                 });
             </script>
             <section class="col-3 ss-style-doublediagonal our-features">
@@ -62,7 +63,7 @@
                     {% for n in news %}
                         <li>
                             <h2 class="c-blue">公司动态</h2>
-                            <p class="c-blue-p">公司运营总部位于上海，并在武汉国家级高新技术开发区--光谷建立了研发和交付中心，同时在美国、法国、加拿大、香港、北京等全球十几个国家和地区建立了营销与服务中心。</p>
+                            {#                            <p class="c-blue-p">公司运营总部位于上海，并在武汉国家级高新技术开发区--光谷建立了研发和交付中心，同时在美国、法国、加拿大、香港、北京等全球十几个国家和地区建立了营销与服务中心。</p>#}
                             <div class="news clear">
                                 <img src="{{ n.pic.url }}"/>
                                 <h2>{{ n.title }}</h2>
@@ -97,7 +98,8 @@
     <section class="slider" id="slider">
         <div class="container">
             <h2 class="certificate">资质证书</h2>
-            <p class="text1">在互联网信息技术服务领域，为客户提供研究及开发产品工程解决方案、 应用软件开发和维护、 质量保证和测试以及业务流程外包等服务，行业涉及政府、金融、医药、电气、汽车、数字新媒体、能源、环保等领域。</p>
+            <p class="text1">在互联网信息技术服务领域，为客户提供研究及开发产品工程解决方案、 应用软件开发和维护、
+                质量保证和测试以及业务流程外包等服务，行业涉及政府、金融、医药、电气、汽车、数字新媒体、能源、环保等领域。</p>
             <div class="flexslider flexslider-2">
                 <ul class="slides">
                     <li>
@@ -169,74 +171,22 @@
     <div class="our-work" id="our-work">
         <div class="container">
             <h2 class="c-blue">我们的业务</h2>
-            <p class="c-blue">公司的业务方向基于多种的开发工具：pyCharm(Python)、IntelliJ idea(Java)、QT(C++)、xCode(IOS)和Android Studio(安卓)，<br>以云计算、大数据访问、移动端自动生成、点对点视频等为核心技术，<br>在智慧城市领域，已形成智慧交通、智慧旅游、智慧教育和智慧商圈等“一揽子”解决方案。</p>
+            <p class="c-blue">公司的业务方向基于多种的开发工具：pyCharm(Python)、IntelliJ idea(Java)、QT(C++)、xCode(IOS)和Android
+                Studio(安卓)，<br>以云计算、大数据访问、移动端自动生成、点对点视频等为核心技术，<br>在智慧城市领域，已形成智慧交通、智慧旅游、智慧教育和智慧商圈等“一揽子”解决方案。</p>
             <div class="gallery-bottom">
-                <div class="col-md-4 bottom-gallery">
-                    <a href="#" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                        <img class="img-responsive" src="/static/images/IMG_3.jpg"/>
-                        <div class="b-wrapper">
-                            <h3 class="b-animate b-from-left    b-delay03 ">
-                                <span class="txt">aaaaa</span>
-                                <span class="glyphicon glyphicon-arrow-right gal-icn" aria-hidden="true"></span>
-                            </h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 bottom-gallery">
-                    <a href="#" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                        <img class="img-responsive" src="/static/images/IMG_1.jpg"/>
-                        <div class="b-wrapper">
-                            <h3 class="b-animate b-from-left    b-delay03 ">
-                                <span class="txt"></span>
-                                <span class="glyphicon glyphicon-arrow-right gal-icn" aria-hidden="true"></span>
-                            </h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 bottom-gallery">
-                    <a href="#" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                        <img class="img-responsive" src="/static/images/IMG_5.jpg"/>
-                        <div class="b-wrapper">
-                            <h3 class="b-animate b-from-left    b-delay03 ">
-                                <span class="txt"></span>
-                                <span class="glyphicon glyphicon-arrow-right gal-icn" aria-hidden="true"></span>
-                            </h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 bottom-gallery">
-                    <a href="#" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                        <img class="img-responsive" src="/static/images/IMG_2.jpg"/>
-                        <div class="b-wrapper">
-                            <h3 class="b-animate b-from-left    b-delay03 ">
-                                <span class="txt"></span>
-                                <span class="glyphicon glyphicon-arrow-right gal-icn" aria-hidden="true"></span>
-                            </h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 bottom-gallery">
-                    <a href="#" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                        <img class="img-responsive" src="/static/images/IMG_4.jpg"/>
-                        <div class="b-wrapper">
-                            <h3 class="b-animate b-from-left    b-delay03 ">
-                                <span class="txt"></span>
-                                <span class="glyphicon glyphicon-arrow-right gal-icn" aria-hidden="true"></span>
-                            </h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-4 bottom-gallery">
-                    <a href="#" rel="title" class="b-link-stripe b-animate-go  thickbox">
-                        <img class="img-responsive" src="/static/images/IMG_6.jpg"/>
-                        <div class="b-wrapper">
-                            <h3 class="b-animate b-from-left    b-delay03 ">
-                                <span class="txt"></span>
-                                <span class="glyphicon glyphicon-arrow-right gal-icn" aria-hidden="true"></span>
-                            </h3>
-                        </div>
-                    </a>
-                </div>
+                {% for s in solutions %}
+                    <div class="col-md-4 bottom-gallery">
+                        <a href="/domaindetail/{{ s.pk }}" target="_blank" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                            <img class="img-responsive" src="{{ s.pic.url }}"/>
+                            <div class="b-wrapper">
+                                <h3 class="b-animate b-from-left    b-delay03 ">
+                                    <span class="txt">{{ s.summary }}</span>
+                                    <span class="glyphicon glyphicon-arrow-right gal-icn" aria-hidden="true"></span>
+                                </h3>
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
                 <div class="clearfix"></div>
                 <script src="/static/js/jquery.chocolat.js"></script>
                 <link rel="stylesheet" href="/static/css/chocolat.css" type="text/css" media="screen" charset="utf-8">
@@ -251,4 +201,19 @@
         </div>
     </div>
 {% endblock %}
+{% block totop %}
+{% endblock %}
+{% block scrollscript_post %}
+    <script>
+        (function ($) {
+            $(window).load(function () {
 
+                $("body").mCustomScrollbar({
+                    theme: "minimal",
+                    scrollInertia: 3000,
+                });
+
+            });
+        })(jQuery);
+    </script>
+{% endblock %}
